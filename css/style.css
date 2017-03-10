@@ -1,0 +1,165 @@
+/*
+Theme Name: Atelier Viver com Arte
+Theme URI: https://wordpress.org/themes/theme_atelier/
+Author: Sinara Castellem
+Author URI: http://www.sinaracastellem.com/
+Description: Tema desenvolvido para Atelier Viver com Arte em 2017, responsivo para todas as mídeas.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, arte, galeria, turismo, viagem
+Text Domain: ateliervivercomarte
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+html, body {
+    
+}
+
+/* header */
+.my-navbar {
+    background-image: url("../img/img_nav.png");
+    color: black;
+    padding: none;
+}
+
+.img-logo {
+    padding-top: 5%;
+    padding-bottom: 1%
+}
+.img-girabrasil {
+    padding-top: 6%;
+    padding-bottom: 1%;
+}
+
+hr {
+    padding-top: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #0e700e;
+    background-color: #0e700e;
+    height: 2px;
+}
+
+a {
+    color: #0e700e;
+    text-decoration: none;
+}
+
+ a:hover {
+    color: #75af27;
+    text-decoration: none;
+}
+
+.menu li {
+    color: black;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+
+.slide {
+    margin-top: 30px;
+    padding-left: 120px;
+    padding-right: 30px;
+}
+.title-line h3 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 0.5px solid #0e700e;
+    line-height: 0.1em;
+    margin: 20px 0 0;
+    margin-bottom: 30px;
+    padding-top: 3%;
+    color: #0e700e; 
+}
+.title-line h3 span {
+    background: #fff;
+    padding: 0 10px;
+    margin-bottom: 30px;
+    text-transform: uppercase;  
+    color: #0e700e;
+}
+
+.section-index h3 {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.section-index p {
+    text-align: justify;
+}
+.section-index span {
+    padding-bottom: 100px;
+}
+.section-index img {
+    padding: 25px 100px;   
+}
+
+.anuncios img {
+    margin-left: 20px; 
+    padding-top: 10%;   
+}
+
+.anuncios title-line {
+    margin-left: 20px; 
+    padding-top: 10%;   
+}
+
+
+.img-left img {
+    float: left;
+    margin: 0 0 0;
+    padding: 0 20px;
+}
+.img-right img {
+    float: right;
+    margin: 0 0 0;
+    padding: 0 0;
+}
+
+.girabrasil {
+    background: #dde884;
+    margin-top: 20px;
+    padding-bottom:20px;
+    color: #0e700e;
+}
+
+.title-giramundo {
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+.title-girabrasil {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.projetos {
+    margin-bottom: 30px;
+}
+ 
+footer {
+    background-image: url("../img/img_nav.png");
+    min-height: 200px;
+    background-size: cover;
+}
+footer p {
+    text-align: center;
+    font-size: 10px;
+    color: #0e700e;
+}
+.redes-sociais-footer {
+    padding-top: 20px;
+}
+.menu-footer {
+    padding-top: 20px;
+}
+.copyright span {
+    color: #0e700e;
+}
+.copyright {
+    padding-top: 20px;
+}
+
+
