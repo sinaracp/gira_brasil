@@ -15,7 +15,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
 */
 
 html, body {
-    
+
 }
 
 /* header */
@@ -28,12 +28,12 @@ html, body {
 .img-logo {
     padding-top: 7%;
     padding-left: 7%;
-    
-   
+
+
 }
 .img-girabrasil {
     padding-top: 8%;
-    
+
 }
 .index h3 {
     text-align: center;
@@ -56,7 +56,7 @@ a {
     text-decoration: none;
 }
 
- a:hover {
+a:hover {
     color: #75af27;
     text-decoration: none;
 }
@@ -95,7 +95,7 @@ a {
 }
 
 .section-index {
-   padding-left: 50px;
+    padding-left: 50px;
 }
 
 .section-index h3 {
@@ -121,7 +121,7 @@ a {
 .anuncios title-line {
     margin-left: 20px; 
     padding-top: 10%;  
-  padding-right: 50px;
+    padding-right: 50px;
 }
 
 
@@ -155,7 +155,7 @@ a {
 .projetos {
     margin-bottom: 30px;
 }
- 
+
 footer {
     background-image: url("../img/img_nav.png");
     min-height: 200px;
@@ -228,4 +228,50 @@ footer p {
 .btn-formulario:hover {
     color: #75af27;
     text-decoration: none;
+}
+.autor-dark {
+    background: #dde884;
+    margin-top: 30px;
+    padding: 20px;
+}
+img-left {
+    float: left;
+}
+.autor-dark p {
+    line-height: 1.5;
+    padding-top: 20px;
+}
+
+.autor-dark button {
+    line-height: 1.5;
+    margin-left: 560px;
+}
+
+.autor-light {
+    margin-top: 30px;
+    padding: 20px;
+}
+.autor-light p {
+    line-height: 1.5;
+    padding-top: 20px;
+}
+.autor-light button {
+    line-height: 1.5;
+    margin-left: 560px;
+}
+.pg-autor-single {
+    margin-top:  45px;
+}
+.borda-livro {
+    box-shadow: 5px 5px 10px #948780;
+-webkit-box-shadow: 5px 5px 10px #948780;
+-moz-box-shadow: 5px 5px 10px #948780;
+    margin-bottom: 30px;
+}
+.img-border{
+    margin-left: 40px;
+}
+.btn-autor{
+    margin-top: 25px;
+    margin-left: 370px;
 }
