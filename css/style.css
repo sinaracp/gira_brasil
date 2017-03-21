@@ -272,3 +272,9 @@ img-left {
     margin-top: 25px;
     margin-left: 370px;
 }
+.eventos img{
+    box-shadow: 5px 5px 10px #948780;
+-webkit-box-shadow: 5px 5px 10px #948780;
+-moz-box-shadow: 5px 5px 10px #948780;
+}
+
