@@ -33,7 +33,6 @@ html, body {
 }
 .img-girabrasil {
     padding-top: 8%;
-
 }
 .index h3 {
     text-align: center;
@@ -138,9 +137,12 @@ a:hover {
 
 .girabrasil {
     background: #dde884;
-    margin-top: 20px;
-    padding-bottom:20px;
+    margin-top: 5%;
+    margin-bottom:1%;
     color: #0e700e;
+}
+.midea-folder img {
+    margin-left: 10%;
 }
 
 .title-giramundo {
@@ -152,7 +154,7 @@ a:hover {
     padding-bottom: 5px;
 }
 
-.projetos {
+.clube-girabrasil {
     margin-bottom: 30px;
 }
 
