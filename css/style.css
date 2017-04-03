@@ -280,3 +280,21 @@ img-left {
 -moz-box-shadow: 5px 5px 10px #948780;
 }
 
+.curta-face {
+    background: #dde884;
+    border-radius: 10px;
+    border-left-width:thick;
+    border-left-color: #75af27;
+    border-left-style: solid;
+    margin-bottom: 5%;
+}
+.curta-face p {
+    font-size: 18px;
+}
+.em-breve {
+    font-size: 18px;
+    color: #75af27;
+}
+    
+
+
