@@ -113,8 +113,18 @@ a:hover {
 }
 
 .anuncios img {
-    margin-left: 20px; 
-    padding-top: 10%;   
+    padding-top: 6%;   
+    padding-bottom: 6%;
+    margin-top: 0;
+    margin-left: 25%;
+    border-left-width:thick;
+    border-left-color: #75af27;
+    border-left-style: solid;
+    
+    box-shadow: 5px 5px 10px #948780;
+    -webkit-box-shadow: 5px 5px 10px #948780;
+    -moz-box-shadow: 5px 5px 10px #948780;
+    margin-bottom: 30px;
 }
 
 .anuncios title-line {
@@ -235,10 +245,15 @@ footer p {
     background: #dde884;
     margin-top: 30px;
     padding: 20px;
-    border-radius: 10px;
+    
     border-left-width:thick;
     border-left-color: #75af27;
     border-left-style: solid;
+    
+    box-shadow: 5px 5px 10px #948780;
+    -webkit-box-shadow: 5px 5px 10px #948780;
+    -moz-box-shadow: 5px 5px 10px #948780;
+    margin-bottom: 30px;
 }
 img-left {
     float: left;
