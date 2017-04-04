@@ -292,6 +292,15 @@ img-left {
     text-align: center;
     text-transform: uppercase;
 }
+.estante-livros p {
+    text-align: center;
+    font-size: 12px;
+    margin: 0;
+}
+
+.estante-livros span {
+    font-size: 12px;
+}
 
 .btn-autor{
     margin-top: 6%;
