@@ -71,10 +71,10 @@ a:hover {
 }
 
 .slide-livro {
-        margin-top: 30px;
-        padding-left: 120px;
-        padding-right: 30px;
-    }
+    margin-top: 30px;
+    padding-left: 120px;
+    padding-right: 30px;
+}
 .title-line h3 {
     width: 100%;
     text-align: center;
@@ -239,7 +239,6 @@ footer p {
     border-left-width:thick;
     border-left-color: #75af27;
     border-left-style: solid;
-    
 }
 img-left {
     float: left;
@@ -257,7 +256,6 @@ img-left {
 .autor-light {
     margin-top: 30px;
     padding: 20px;
-    border-radius: 10px;
     border-left-width:thick;
     border-left-color: #75af27;
     border-style: solid;
@@ -265,6 +263,11 @@ img-left {
     border-top-width: thin;
     border-bottom-width: thin;
     border-right-width: thin;
+
+    box-shadow: 5px 5px 10px #948780;
+    -webkit-box-shadow: 5px 5px 10px #948780;
+    -moz-box-shadow: 5px 5px 10px #948780;
+    margin-bottom: 30px;
 }
 .autor-light p {
     line-height: 1.5;
@@ -273,16 +276,21 @@ img-left {
 .autor-light button {
     line-height: 1.5;
     margin-left: 90%;
-     margin-top: 10%;
+    margin-top: 10%;
 }
 .pg-autor-single {
     margin-top:  45px;
 }
 .borda-livro {
     box-shadow: 5px 5px 10px #948780;
--webkit-box-shadow: 5px 5px 10px #948780;
--moz-box-shadow: 5px 5px 10px #948780;
+    -webkit-box-shadow: 5px 5px 10px #948780;
+    -moz-box-shadow: 5px 5px 10px #948780;
     margin-bottom: 30px;
+}
+
+.estante-livros h5 {
+    text-align: center;
+    text-transform: uppercase;
 }
 
 .btn-autor{
@@ -297,15 +305,15 @@ img-left {
     border-left-style: solid;
 }
 .btn-autor:hover button{
-  color: #333;
-  background-color: #b1bf3b;
-  border-color: #75af27;
+    color: #333;
+    background-color: #b1bf3b;
+    border-color: #75af27;
 }
 
 .eventos img{
     box-shadow: 5px 5px 10px #948780;
--webkit-box-shadow: 5px 5px 10px #948780;
--moz-box-shadow: 5px 5px 10px #948780;
+    -webkit-box-shadow: 5px 5px 10px #948780;
+    -moz-box-shadow: 5px 5px 10px #948780;
 }
 
 .curta-face {
@@ -323,6 +331,7 @@ img-left {
     font-size: 18px;
     color: #75af27;
 }
-    
+
+
 
 
