@@ -235,6 +235,11 @@ footer p {
     background: #dde884;
     margin-top: 30px;
     padding: 20px;
+    border-radius: 10px;
+    border-left-width:thick;
+    border-left-color: #75af27;
+    border-left-style: solid;
+    
 }
 img-left {
     float: left;
@@ -247,10 +252,19 @@ img-left {
 .autor-dark button {
     line-height: 1.5;
     margin-left: 90%;
+    margin-top: 10%;
 }
 .autor-light {
     margin-top: 30px;
     padding: 20px;
+    border-radius: 10px;
+    border-left-width:thick;
+    border-left-color: #75af27;
+    border-style: solid;
+    border-color: #75af27;
+    border-top-width: thin;
+    border-bottom-width: thin;
+    border-right-width: thin;
 }
 .autor-light p {
     line-height: 1.5;
@@ -259,6 +273,7 @@ img-left {
 .autor-light button {
     line-height: 1.5;
     margin-left: 90%;
+     margin-top: 10%;
 }
 .pg-autor-single {
     margin-top:  45px;
