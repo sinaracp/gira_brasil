@@ -202,12 +202,12 @@ footer p {
 }
 
 .min-media-folder img {
-    margin-top: 25px;
-    
+    margin-top: 10%;
+    margin-bottom: 5%;
     box-shadow: 5px 5px 10px #948780;
     -webkit-box-shadow: 5px 5px 10px #948780;
     -moz-box-shadow: 5px 5px 10px #948780;
-    margin-bottom: 30px;
+    
 }
 .min-media-folder span {
     text-align: center;
