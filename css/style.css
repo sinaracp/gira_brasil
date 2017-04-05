@@ -202,14 +202,25 @@ footer p {
 }
 
 .min-media-folder img {
-    padding-top: 25px;
+    margin-top: 25px;
+    
+    box-shadow: 5px 5px 10px #948780;
+    -webkit-box-shadow: 5px 5px 10px #948780;
+    -moz-box-shadow: 5px 5px 10px #948780;
+    margin-bottom: 30px;
 }
 .min-media-folder span {
     text-align: center;
 }
 
 .midea-folder img {
-    padding: 20px 0;
+    margin-top: 3%;
+    margin-left: 43%;
+    
+    box-shadow: 5px 5px 10px #948780;
+    -webkit-box-shadow: 5px 5px 10px #948780;
+    -moz-box-shadow: 5px 5px 10px #948780;
+    margin-bottom: 30px;
 }
 
 .livros {
@@ -227,10 +238,10 @@ footer p {
     color: #0e700e;
 }
 
-. page-media-folder p {
+.page-media-folder p {
     text-align: justify;
 }
-. page-media-folder li {
+.page-media-folder li {
     text-align: justify;
 }
 .btn-formulario {
@@ -334,6 +345,29 @@ img-left {
     border-color: #75af27;
 }
 
+.btn-preco {
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+.btn-preco button {
+    background: #dde884;
+    border-radius: 0;
+    border-left-width:thick;
+    border-left-color: #75af27;
+    border-left-style: solid;
+    
+    box-shadow: 5px 5px 10px #948780;
+    -webkit-box-shadow: 5px 5px 10px #948780;
+    -moz-box-shadow: 5px 5px 10px #948780;
+    margin-bottom: 30px;
+}
+.btn-preco:hover button{
+    color: #333;
+    background-color: #b1bf3b;
+    border-color: #75af27;
+}
+
 .eventos img{
     box-shadow: 5px 5px 10px #948780;
     -webkit-box-shadow: 5px 5px 10px #948780;
@@ -356,6 +390,12 @@ img-left {
     color: #75af27;
 }
 
-
+.page-livros img {
+    margin-left: 5%;
+    box-shadow: 5px 5px 10px #948780;
+    -webkit-box-shadow: 5px 5px 10px #948780;
+    -moz-box-shadow: 5px 5px 10px #948780;
+    margin-bottom: 30px;
+}
 
 
