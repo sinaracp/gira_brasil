@@ -93,13 +93,11 @@ a:hover {
     color: #0e700e;
 }
 
-.section-index {
-    padding-left: 50px;
-}
+
 
 .section-index h3 {
     text-align: center;
-    padding-top: 20px;
+    padding-top: 5%;
 }
 
 .section-index p {
@@ -116,11 +114,11 @@ a:hover {
     padding-top: 6%;   
     padding-bottom: 6%;
     margin-top: 0;
-    margin-left: 25%;
+   margin-left: 20%;
     border-left-width:thick;
     border-left-color: #75af27;
     border-left-style: solid;
-    
+
     box-shadow: 5px 5px 10px #948780;
     -webkit-box-shadow: 5px 5px 10px #948780;
     -moz-box-shadow: 5px 5px 10px #948780;
@@ -170,7 +168,6 @@ a:hover {
 
 footer {
     background-image: url("../img/img_nav.png");
-    min-height: 200px;
     background-size: cover;
 }
 footer p {
@@ -179,16 +176,15 @@ footer p {
     color: #0e700e;
 }
 .redes-sociais-footer {
-    padding-top: 20px;
+    padding-top: 2%;
 }
-.menu-footer {
-    padding-top: 20px;
-}
+
 .copyright span {
     color: #0e700e;
 }
 .copyright {
-    padding-top: 20px;
+    margin-top: 1%;
+    margin-bottom: 0;
 }
 
 /*girabrasil.html*/
@@ -207,7 +203,7 @@ footer p {
     box-shadow: 5px 5px 10px #948780;
     -webkit-box-shadow: 5px 5px 10px #948780;
     -moz-box-shadow: 5px 5px 10px #948780;
-    
+
 }
 .min-media-folder span {
     text-align: center;
@@ -216,7 +212,7 @@ footer p {
 .midea-folder img {
     margin-top: 3%;
     margin-left: 43%;
-    
+
     box-shadow: 5px 5px 10px #948780;
     -webkit-box-shadow: 5px 5px 10px #948780;
     -moz-box-shadow: 5px 5px 10px #948780;
@@ -256,11 +252,11 @@ footer p {
     background: #dde884;
     margin-top: 30px;
     padding: 20px;
-    
+
     border-left-width:thick;
     border-left-color: #75af27;
     border-left-style: solid;
-    
+
     box-shadow: 5px 5px 10px #948780;
     -webkit-box-shadow: 5px 5px 10px #948780;
     -moz-box-shadow: 5px 5px 10px #948780;
@@ -356,7 +352,7 @@ img-left {
     border-left-width:thick;
     border-left-color: #75af27;
     border-left-style: solid;
-    
+
     box-shadow: 5px 5px 10px #948780;
     -webkit-box-shadow: 5px 5px 10px #948780;
     -moz-box-shadow: 5px 5px 10px #948780;
@@ -396,6 +392,15 @@ img-left {
     -webkit-box-shadow: 5px 5px 10px #948780;
     -moz-box-shadow: 5px 5px 10px #948780;
     margin-bottom: 30px;
+}
+
+.mapa-site {
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 20;
+}
+.mapa-site {
+    margin-left: 0;
 }
 
 
