@@ -106,15 +106,57 @@ a:hover {
 .section-index span {
     padding-bottom: 100px;
 }
+
 .section-index img {
-    padding: 25px 100px;   
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: 1%;
+    margin-right: 3%;
 }
+
+.section-carousel-index {
+    margin-left: 1%;
+    margin-top: 5%;
+}
+
+.section-index-eventos {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 3%;
+    
+    
+    border-left-width:thick;
+    border-left-color: #75af27;
+    border-left-style: solid;
+
+    box-shadow: 5px 5px 10px #948780;
+    -webkit-box-shadow: 5px 5px 10px #948780;
+    -moz-box-shadow: 5px 5px 10px #948780;
+    margin-bottom: 30px;
+}
+
+.section-index-eventos img {
+    margin-left: 20%;
+}
+
+.section-index-eventos h4 {
+    color: #0e700e;
+}
+
+
+.carousel-inner > .item > img {
+    position-relative;
+    min-width: 100%;
+    height: 520px; /* Altura da imagem dentro do Carousel */
+}
+
 
 .anuncios img {
     padding-top: 6%;   
     padding-bottom: 6%;
     margin-top: 0;
-   margin-left: 20%;
+   margin-left: 15%;
     border-left-width:thick;
     border-left-color: #75af27;
     border-left-style: solid;
