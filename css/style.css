@@ -158,7 +158,7 @@ a:hover {
     padding-bottom: 6%;
 */
     margin-top: 0;
-   margin-left: 15%;
+   margin-left: 10%;
     border-left-width:thick;
     border-left-color: #75af27;
     border-left-style: solid;
@@ -392,10 +392,14 @@ img-left {
     font-size: 12px;
     margin: 0;
 }
-
 .estante-livros span {
     font-size: 12px;
 }
+.estante-livros img {
+    margin-left: 12%;
+}
+
+
 
 .btn-autor{
     margin-top: 6%;
