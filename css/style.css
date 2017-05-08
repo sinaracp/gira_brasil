@@ -20,7 +20,8 @@ html, body {
 
 /* header */
 .my-navbar {
-    background-image: url("../img/img_nav.png");
+    background-color: #0e700e;
+background-image: url("../img/img_nav.png");
     color: black;
     padding: none;
 }
