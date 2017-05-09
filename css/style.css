@@ -160,9 +160,11 @@ a:hover {
 */
     margin-top: 0;
    margin-left: 10%;
+/*
     border-left-width:thick;
     border-left-color: #75af27;
     border-left-style: solid;
+*/
 
     box-shadow: 5px 5px 10px #948780;
     -webkit-box-shadow: 5px 5px 10px #948780;
@@ -223,16 +225,18 @@ a:hover {
     margin-left: 30%;
 }
 .equipe {
-     margin-top: 30px;
+    margin-top: 30px;
     margin-left: 2%;
     padding: 20px;
     border-left-width:thick;
     border-left-color: #75af27;
+/*
     border-style: solid;
     border-color: #75af27;
     border-top-width: thin;
     border-bottom-width: thin;
     border-right-width: thin;
+*/
     
     box-shadow: 5px 5px 10px #948780;
     -webkit-box-shadow: 5px 5px 10px #948780;
@@ -375,7 +379,9 @@ img-left {
     margin-top: 10%;
 }
 .pg-autor-single {
-    margin-top:  45px;
+    margin-top:  5%;
+    margin-bottom: 5%;
+    color: #0e700e;
 }
 .borda-livro {
     box-shadow: 5px 5px 10px #948780;
