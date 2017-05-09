@@ -73,8 +73,8 @@ a:hover {
 
 .slide-livro {
     margin-top: 30px;
-    padding-left: 120px;
-    padding-right: 30px;
+    padding-left: 300px;
+    padding-right: 100px;
 }
 .title-line h3 {
     width: 100%;
@@ -82,7 +82,7 @@ a:hover {
     border-bottom: 0.5px solid #0e700e;
     line-height: 0.1em;
     margin: 20px 0 0;
-    margin-bottom: 30px;
+/*    margin-bottom: 30px;*/
     padding-top: 3%;
     color: #0e700e; 
 }
@@ -383,6 +383,10 @@ img-left {
     margin-bottom: 5%;
     color: #0e700e;
 }
+.pg-feira {
+    margin-top:  5%;
+    margin-bottom: 5%;
+}
 .borda-livro {
     box-shadow: 5px 5px 10px #948780;
     -webkit-box-shadow: 5px 5px 10px #948780;
@@ -486,7 +490,11 @@ img-left {
 .mapa-site {
     margin-left: 0;
 }
-
+.video {
+     margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
 
 
 
