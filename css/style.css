@@ -71,11 +71,14 @@ a:hover {
     padding-left: 0;
 }
 
-.slide-livro {
-    margin-top: 30px;
-    padding-left: 300px;
-    padding-right: 100px;
-}
+
+    
+    .slide-livro {
+      margin-top: 30px;
+    padding-left: 120px;
+     padding-right: 30px;
+  }
+
 .title-line h3 {
     width: 100%;
     text-align: center;
@@ -116,7 +119,7 @@ a:hover {
 }
 
 .section-carousel-index {
-    margin-left: 1%;
+    margin-left: 5%;
     margin-top: 5%;
 }
 
@@ -408,6 +411,7 @@ img-left {
 }
 .estante-livros img {
     margin-left: 12%;
+    margin-top: 15%;
 }
 
 
@@ -495,6 +499,8 @@ img-left {
     margin-bottom: 5%;
     margin-left: 5%;
 }
-
-
+/*contato.html*/
+.form-contato{
+    margin-top: 10%;
+}
 
