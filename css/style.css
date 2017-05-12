@@ -21,10 +21,17 @@ html, body {
 /* header */
 .my-navbar {
     background-color: #0e700e;
-background-image: url("../img/img_nav.png");
+/*background-image: url("../img/img_nav.png");*/
     color: black;
-    padding: none;
+    padding: none;    
 }
+.my-navbar > li > a {
+    color:  #fcf8e3 !important;
+}
+.my-navbar > i > a {
+    color:  #fcf8e3 !important;
+}
+
 
 .img-logo {
     padding-top: 7%;
@@ -69,10 +76,7 @@ a:hover {
 
 .drop-menu li {
     padding-left: 0;
-}
-
-
-    
+}    
     .slide-livro {
       margin-top: 30px;
     padding-left: 120px;
@@ -97,8 +101,6 @@ a:hover {
     color: #0e700e;
 }
 
-
-
 .section-index h3 {
     text-align: center;
     padding-top: 5%;
@@ -119,7 +121,6 @@ a:hover {
 }
 
 .section-carousel-index {
-    margin-left: 5%;
     margin-top: 5%;
 }
 
@@ -141,7 +142,7 @@ a:hover {
 }
 
 .section-index-eventos img {
-    margin-left: 20%;
+    margin-left: 10%;
 }
 
 .section-index-eventos h4 {
@@ -155,7 +156,9 @@ a:hover {
     height: 520px; /* Altura da imagem dentro do Carousel */
 }
 
-
+.jornal-capa img {
+    border-radius: 50px;
+}
 .anuncios img {
 /*
     padding-top: 6%;   
