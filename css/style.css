@@ -251,20 +251,21 @@ a:hover {
 }
 
 footer {
-    background-image: url("../img/img_nav.png");
+    background-color: #0e700e;
     background-size: cover;
 }
 footer p {
     text-align: center;
     font-size: 10px;
-    color: #0e700e;
+    color: #fcf8e3;
 }
-.redes-sociais-footer {
+.redes-sociais-footer a {
     padding-top: 2%;
+    color: #fcf8e3;
 }
 
 .copyright span {
-    color: #0e700e;
+    color: #fcf8e3;
 }
 .copyright {
     margin-top: 1%;
