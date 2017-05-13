@@ -7,7 +7,7 @@
         <!-- As 3 meta tags acima *devem* vir em primeiro lugar dentro do `head`; qualquer outro conteúdo deve vir *após* essas tags -->
 
         <title>GIRABRASIL</title>
-        <link rel="shortcut icon" href="../../img/giramundo-t.png" >
+        <link rel="shortcut icon" href="../ ../img/giramundo-t.png" >
 
         <!-- Custom Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
@@ -28,13 +28,11 @@
     <body id="page-top">
 
         <header>
-
             <nav class="navbar navbar-default navbar-fixed-top">
-                <div class="container-fluid my-navbar">
-
+                <div class="my-navbar container-fluid ">
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
+                        <ul class="nav navbar-nav my-navbar">
                             <li role="presentation"><a href="../index-carousel.html#page-top">Home</a></li>
                             <li role="presentation"><a href="../editora.html">Editora</a></li>
                             <li role="presentation"><a href="../girabrasil.html">Jornal GIRABRASIL</a></li>
@@ -42,12 +40,12 @@
                             <li role="presentation"><a href="../impressum.html">Impressum</a></li>
                         </ul>
 
-                        <ul class="nav navbar-nav navbar-right">
+                        <ul class="nav navbar-nav navbar-right my-navbar">
                             <li><a class="navbar-brand" target="_blank" href="https://www.facebook.com/GUIA.GIRABRASIL/">
                                 <i class="fa fa-facebook fa-1x"></i></a></li>
                             <li><a class="navbar-brand" target="_blank" href="https://www.linkedin.com/pulse/girabrasil-guia-intercultural-do-brasil-na-alemanha-m%C3%B6nch-pingel">
                                 <i class="fa fa-linkedin fa-1x"></i></a></li>
-                            <li><a class="page-scroll" href="../../de/index-de.html"><img src="../../img/001-germany.png"/></a></li>
+                            <li><a class="page-scroll" href="../de/index-de.html"><img src="../../img/001-germany.png"/></a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
@@ -56,14 +54,13 @@
 
         <div class="container index">
             <div class="row">
+                <div class="col-md-4 img-logo">
+                    <img class="img-responsive" style="margin-left:50%" src="../../img/giramundo.png" width="80%" height=80%;/>
+                </div>
+                <div class="col-md-6 img-girabrasil" style="margin-left:2%">
+                    <img class="img-responsive" style="margin-top:10%" src="../../img/girabrasil-footer.png" width="80%" height=80%;/>
+                </div>
                 <div class="col-md-2"></div>
-                <div class="col-md-2 img-logo">
-                    <img class="img-responsive" src="../../img/giramundo.png" width="160%" height=160%;/>
-                </div>
-                <div class="col-md-7 img-girabrasil">
-                    <img class="img-responsive" src="../../img/girabrasil.png" width="80%" height=80%;/>
-                </div>
-                <div class="col-md-1"></div>
                 <div class="col-md-12">
                     <h3>GUIA INTERCULTURAL E EDITORA DE LIVROS BRASILEIROS NA ALEMANHA</h3>
                 </div>
@@ -82,9 +79,9 @@
                 <div class="col-md-11 text-center" style="margin-left:12%">
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li role="presentation"><a href="../index-carousel.html#page-top">Home</a></li>
+                            <li role="presentation"><a href="../index-carousel.html">Home</a></li>
                             <li class="dropdown">
-                                <a href="../eventos.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><strog>Editora</strog><span class="caret"></span></a>
+                                <a href="eventos.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><strog>Editora</strog><span class="caret"></span></a>
                                 <ul class="dropdown-menu drop-menu">
                                     <li><a href="../editora.html">Sobre nós</a></li>
                                     <li><a href="../autores.html"> Autores</a></li>
@@ -108,7 +105,7 @@
 
 
                             <li class="dropdown">
-                                <a href="../eventos.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Eventos<span class="caret"></span></a>
+                                <a href="eventos.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Eventos<span class="caret"></span></a>
                                 <ul class="dropdown-menu drop-menu">
                                     <li><a href="../eventos.html#eventos-literarios">Eventos</a></li>
                                     <li><a href="../feiras.html">Feiras</a></li>
@@ -127,9 +124,7 @@
                 </div>
             </div>
         </div>
-
-
-
+        
         <div class="container-fluid">
             <div class="col-md-8">
 
@@ -177,7 +172,7 @@
                 </div>
 
                 <div class="row">
-                    <div class="col-md-12" style="margin-bottom:3%">
+                    <div class="col-md-12" style="margin-bottom:3%; margin-top:10%">
                         <a href="apoiadores.html"><h4>Apoiadores:</h4></a>
                     </div>
                     <div class="col-md-2">
@@ -303,75 +298,83 @@
                 </div>
             </div>
 
-            <footer class="container-fluid">
-                <div class="row">
-                    <div class="col-md-5"></div>
-                    <div class="col-md-6 title-girabrasil">
-                        <a href="#"><img src="../../img/girabrasil-footer.png" width="25%" height=25%;/></a>
-                    </div>
+             <div class="container-fluid mapa-site">
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
                 </div>
-                <div class="row redes-sociais-footer">
+            </div>
+            <div class="row mapa-site">
+                <div class="col-md-2"></div>
+                <div class="col-md-2">
+                    <h4 style="color:#0e700e;">Editora</h4>
+                    <a href="../editora.html">Sobre nós</a><br>
+                    <a href="../livros.html">Livros</a><br>
+                    <a href="../autores.html">Autores</a><br>
+                    <a href="../servicos.html">Serviços</a><br>
+                    <a href="../publicar.html">Para publicar</a><br>
+                    <a href="../parceiros.html">Parceiros</a>
+                </div>
+                <div class="col-md-2">
+                    <h4 style="color:#0e700e;">Jornal</h4>
+                    <a href="../girabrasil.html">Jornal on-line</a><br>
+                    <a href="../giramundo.html">Mascote</a><br>
+                    <a href="../autores.html">Autores</a><br>
+                    <a href="../media-folder.html">Media Folder</a>
+                </div>
+                <div class="col-md-2">
+                    <h4 style="color:#0e700e;">Eventos</h4>
+                    <a href="../eventos.html">Eventos</a><br>
+                    <a href="../feiras.html">Feiras</a><br>
+                    <a href="../clubgirabrasil.html">Clube GIRABRASIL</a><br>
+                    <a href="../apoiadores.html">Apoiadores</a>
+                </div>
+                <div class="col-md-2">
+                    <h4><a href="../contato.html">Contato</a></h4>
+                    <h4><a href="../impressum.html">Impressum</a></h4>
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+        </div>
+        
+       <footer class="container-fluid">
+            <div class="row">
+                <div class="col-md-5"></div>
+                <div class="col-md-6 title-girabrasil">
+                    <a href="index-carousel.html#page-top"><img src="../../img/girabrasil-footer-br.png" width="25%" height=25%;/></a>
+                </div>
+            </div>
+            <div class="row redes-sociais-footer">
+                <div class="col-md-4"></div>
+                <div class="col-md-4">
                     <div class="col-md-4"></div>
-                    <div class="col-md-4">
-                        <div class="col-md-4"></div>
-                        <div class="col-md-1">
-                            <a target="_blank" href="https://www.facebook.com/GUIA.GIRABRASIL/">
-                                <i class="fa fa-facebook fa-2x"></i></a>
-                        </div>
-                        <div class="col-md-1">
-                            <a target="_blank" href="https://www.linkedin.com/pulse/girabrasil-guia-intercultural-do-brasil-na-alemanha-m%C3%B6nch-pingel">
-                                <i class="fa fa-linkedin fa-2x"></i></a>
-                        </div>
-                        <div class="col-md-6"></div>
+                    <div class="col-md-1">
+                        <a target="_blank" href="https://www.facebook.com/GUIA.GIRABRASIL/">
+                            <i class="fa fa-facebook fa-2x"></i></a>
                     </div>
-                    <div class="col-md-4"></div>
+                    <div class="col-md-1">
+                        <a target="_blank" href="https://www.linkedin.com/pulse/girabrasil-guia-intercultural-do-brasil-na-alemanha-m%C3%B6nch-pingel">
+                            <i class="fa fa-linkedin fa-2x"></i></a>
+                    </div>
+                    <div class="col-md-6"></div>
                 </div>
-
-                <div class="row menu-footer">
-                    <div class="col-md-12 text-center">
-                        <div class="col-md-2"></div>
-                        <div class="col-md-1 text-center">
-                            <a href="#"><strong>Editora</strong></a>
-                        </div>
-                        <div class="col-md-1 text-center">
-                            <a href="#"><strong>GIRABRASIL</strong></a>
-                        </div>
-                        <div class="col-md-1 text-center">
-                            <a href="#"><strong>Giramundo</strong></a>
-                        </div>
-                        <div class="col-md-1 text-center">
-                            <a href="#">Serviços</a>
-                        </div>
-                        <div class="col-md-1 text-center">
-                            <a href="#">Livros</a>
-                        </div>
-                        <div class="col-md-1 text-center">
-                            <a href="#">Eventos</a>
-                        </div>
-                        <div class="col-md-1 text-center">
-                            <a href="#">Projetos</a>
-                        </div>
-                        <div class="col-md-1 text-center">
-                            <a href="#">Contato</a>
-                        </div>
-                    </div>
+                <div class="col-md-4"></div>
+            </div>
+            <div class="row copyright">
+                <div class="col-md-1"></div>
+                <div class="col-md-2">
+                    <p>All Rights Reserved <i class="fa fa-copyright fa-1x"></i>    GIRABRASIL - 2017</p>
                 </div>
-
-                <div class="row copyright">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-2">
-                        <p>All Rights Reserved <i class="fa fa-copyright fa-1x"></i>    GIRABRASIL - 2017</p>
-                    </div>
-                    <div class="col-md-1 text-center"><span >|</span></div>
-                    <div class="col-md-2 img-right autor">
-                        <a target="_blank" href="http://www.sinaracastellem.com/"><p class="hidden-xs hidden-sm">Made with love by<img class="img-responsive" src="../../img/assinatura_black.png" height="60%" width="60%" /></p></a>
-                    </div>
-                    <div class="col-md-1 text-center"><span>|</span></div>
-                    <div class="col-md-2">
-                        <p ><a href="http://www.flaticon.com/authors/freepik"> Icons designed by Freepik from Flaticon</a></p>
-                    </div>
+                <div class="col-md-1 text-center"><span >|</span></div>
+                <div class="col-md-3 img-right autor">
+                    <a target="_blank" href="http://www.sinaracastellem.com/"><p class="hidden-xs hidden-sm">Made with love by<img class="img-responsive" src="../../img/assinatura_white.png" height="60%" width="60%" /></p></a>
                 </div>
-            </footer>
+                <div class="col-md-1 text-center"><span>|</span></div>
+                <div class="col-md-2">
+                    <a href="http://www.flaticon.com/authors/freepik"> <p>Icons designed by Freepik from Flaticon</p></a>
+                </div>
+            </div>
+        </footer>
 
             <!-- jQuery -->
             <script src="../../vendor/jquery/jquery.min.js"></script>
