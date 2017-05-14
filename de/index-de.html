@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="de">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- As 3 meta tags acima *devem* vir em primeiro lugar dentro do `head`; qualquer outro conteúdo deve vir *após* essas tags -->
 
-        <title>Gira Brasil</title>
-        <link rel="shortcut icon" href="../img/logo.jpg" >
+        <title>GIRABRASIL</title>
+        <link rel="shortcut icon" href="../img/giramundo-t.png" >
 
         <!-- Custom Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
@@ -30,47 +30,43 @@
         <header>
 
             <nav class="navbar navbar-default navbar-fixed-top">
-                <div class="container-fluid my-navbar">
+                <div class="my-navbar container-fluid ">
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav">
-                            <li role="presentation"><a href="#">Home</a></li>
-                            <li role="presentation"><a href="#">Buchverlag</a></li>
-                            <li role="presentation"><a href="#">Gira Brasil</a></li>
-                            <li role="presentation"><a href="#">Kontakt</a></li>
+                        <ul class="nav navbar-nav my-navbar">
+                            <li role="presentation"><a href="index-carousel.html#page-top">Home</a></li>
+                            <li role="presentation"><a href="editora.html">Verlag</a></li>
+                            <li role="presentation"><a href="girabrasil.html">Zeitung GIRABRASIL</a></li>
+                            <li role="presentation"><a href="contato.html">Kontact</a></li>
+                            <li role="presentation"><a href="impressum.html">Impressum</a></li>
                         </ul>
 
-                        <ul class="nav navbar-nav navbar-right">
+                        <ul class="nav navbar-nav navbar-right my-navbar">
                             <li><a class="navbar-brand" target="_blank" href="https://www.facebook.com/GUIA.GIRABRASIL/">
                                 <i class="fa fa-facebook fa-1x"></i></a></li>
                             <li><a class="navbar-brand" target="_blank" href="https://www.linkedin.com/pulse/girabrasil-guia-intercultural-do-brasil-na-alemanha-m%C3%B6nch-pingel">
                                 <i class="fa fa-linkedin fa-1x"></i></a></li>
-                           <li><a class="page-scroll" href="../pt-br/index-carousel.html"><img src="../img/002-brazil.png"/></a></li>
-<!--
-                            <li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
-                                <i class="fa fa-search fa-1x">
-                                </i></a>
-                                <ul class="dropdown-menu" style="padding:0 0">
-                                    <li><input type="text" class="form-control" placeholder="Search"></li></ul>
-                            </li>  
--->
+                            <li><a class="page-scroll" href="../pt-br/index-carousel.html"><img src="../img/002-brazil.png"/></a></li>
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
             </nav>
         </header>
 
-        <div class="container">
+        <div class="container index">
             <div class="row">
-                <div class="col-md-3"></div>
-                <div class="col-md-1 img-logo">
-                    <img src="../img/giramundo.png" width="140%" height=140%;/>
+                
+                <div class="col-md-4 img-logo">
+                    <img class="img-responsive" style="margin-left:25%" src="../img/giramundo.png" width="100%" height=100%;/>
                 </div>
-                <div class="col-md-7 img-girabrasil">
-                    <img src="../img/girabrasil.png" width="80%" height=80%;/>
+                <div class="col-md-6 img-girabrasil">
+                    <img class="img-responsive" style="margin-top:16%" src="../img/girabrasil-footer.png" width="100%" height=100%;/>
                 </div>
                 <div class="col-md-2"></div>
+                <div class="col-md-12">
+                    <h3>INTERKULTURELLES JOURNAL PORTUGISCH UND DEUTSCHLAND</h3>
+                </div>
             </div>
         </div>
 
@@ -78,175 +74,51 @@
             <div class="row">
                 <div class="col-md-12">
                     <hr>
-                    <div class="row">
-                        <div class="col-md-1"></div>
-                        <div class="col-md-11 text-center">
-                            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                                <ul class="nav navbar-nav text-center">
-                                    <li role="presentation"><a href="#"><strong>Buchverlag</strong></a></li>
-                                    <li role="presentation"><a href="#"><strong>GIRABRASIL</strong></a></li>
-                                    <li role="presentation"><a href="#"><strong>Giramundo</strong></a></li>
-                                    <li role="presentation"><a href="#">Wartung</a></li>
-                                    <li role="presentation"><a href="#">Unsere Bücher</a></li>
-                                    <li role="presentation"><a href="#">Veranstaltungen</a></li>
-                                    <li role="presentation"><a href="#">Projekte</a></li>
-                                    <li role="presentation"><a href="#">Kontakt</a></li>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class="col-md-11 text-center" style="margin-left:12%">
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li role="presentation"><a href="index-carousel.html">Home</a></li>
+                            <li class="dropdown">
+                                <a href="eventos.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><strog>Verlag</strog><span class="caret"></span></a>
+                                <ul class="dropdown-menu drop-menu">
+                                    <li><a href="editora.html">Sobre nós</a></li>
+                                    <li><a href="autores.html"> Autores</a></li>
+                                    <li><a href="servicos.html"> Serviços</a></li>
+                                    <li><a href="publicar.html">Para Publicar</a></li>
+                                    <li><a href="parceiros.html">Parceiros</a></li>
                                 </ul>
-                            </div>
-                        </div>
+                            </li>
+
+                            <li role="presentation"><a href="livros.html">Livros</a></li>
+
+                            <li class="dropdown">
+                                <a href="eventos.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><strog>Jornal GIRABRASIL</strog><span class="caret"></span></a>
+                                <ul class="dropdown-menu drop-menu">
+                                    <li><a href="girabrasil.html">Jornal On-line</a></li>
+                                    <li><a href="giramundo.html"> Mascote</a></li>
+                                    <li><a href="media-folder.html">Media Folder</a></li>
+                                    <li><a href="apoiadores.html">Apoiadores</a></li>
+                                </ul>
+                            </li>
+
+
+                            <li class="dropdown">
+                                <a href="eventos.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Eventos<span class="caret"></span></a>
+                                <ul class="dropdown-menu drop-menu">
+                                    <li><a href="eventos.html#eventos-literarios">Eventos</a></li>
+                                    <li><a href="feiras.html">Feiras</a></li>
+                                    <li><a href="clube.html">Clube GIRABRASIL</a></li>
+                                </ul>
+                            </li>
+                            <li role="presentation"><a href="contato.html">Contato</a></li>
+                            <li role="presentation"><a href="impressum.html">Impressum</a></li>
+                        </ul>
                     </div>
-                    <div class="row">
-                        <div class="col-md-12">
-                            <hr>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
-        <div class="container-fluid">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="carousel slide multi-item-carousel" id="theCarousel">
-                        <div class="carousel-inner">
-                            <div class="item active">
-                                <div class="col-xs-3"><a href="#1"><img src="http://placehold.it/200?text=Buch" class="img-responsive"></a>
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-xs-3"><a href="#1"><img src="http://placehold.it/200?text=Buch" class="img-responsive"></a> 
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-xs-3"><a href="#1"><img src="http://placehold.it/200?text=Buch" class="img-responsive"></a> 
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-xs-3"><a href="#1"><img src="http://placehold.it/200?text=Buch" class="img-responsive"></a> 
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-xs-3"><a href="#1"><img src="http://placehold.it/200?text=Buch" class="img-responsive"></a> 
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-xs-3"><a href="#1"><img src="http://placehold.it/200?text=Buch" class="img-responsive"></a> 
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-xs-3"><a href="#1"><img src="http://placehold.it/200?text=Buch" class="img-responsive"></a> 
-                                </div>
-                            </div>
-                            <div class="item">
-                                <div class="col-xs-3"><a href="#1"><img src="http://placehold.it/200?text=Buch" class="img-responsive"></a> 
-                                </div>
-                            </div>
-
-                            <!--  Example item end -->
-                        </div>
-                        <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
-                        <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <div class="container">
-            <div class="col-md-8 section-index">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="row title-line">
-                            <h3 class="col-md-12">
-                                <span>Buchverlag GIRABRASIL</span>
-                            </h3>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12 text-center">
-                                <img src="http://placehold.it/720x320?text=Imagem Editora" class="img-responsive" alt="..."/>
-                                <p>Breve descrição sobre a Editora...</p>
-                                <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500
-                                    O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500
-                                    O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão </p>
-                                <span><i>"Uma frase ou pensamento"</i></span>
-                                <span>Autor</span>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-10"></div>
-                            <div class="col-md-2">
-                                <!-- Botão padrão -->
-                                <button type="button" class="btn btn-default btn-xs">Leia mais</button>
-                            </div>
-                        </div>
-                    </div>
-
-
-                    <div class="row">
-                        <div class="col-md-12">
-                            <div class="row title-line">
-                                <h3 class="col-md-12">
-                                    <span>GIRAMUNDO</span>
-                                </h3>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-12 giramundo img-left">
-                                    <img class="img-responsive" src="../img/giramundo.png"  width="30%" height=30%;/>
-                                    <p>Breve descrição sobre o GIRAMUNDO...</p>
-                                    <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500
-                                        O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500
-                                        O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrã
-                                        O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão usado por estas indústrias desde o ano de 1500
-                                        O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão. O Lorem Ipsum tem vindo a ser o texto padrão</p>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-md-10"></div>
-                                <div class="col-md-2">
-                                    <!-- Botão padrão -->
-                                    <button type="button" class="btn btn-default btn-xs">Leia mais</button>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!--fim da col-md-12-->
-                </div><!--fim da row-->
-            </div>  <!--fim da col-md-8-->
-
-            <div class="col-md-4 anuncios">
-                <div class="row">
-                    <div class="col-md-12">
-                        <img src="http://placehold.it/360x180?text=Anzeige" class="img-responsive" alt="..."/>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-12">
-                        <img src="http://placehold.it/360x180" class="img-responsive" alt="..."/>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-12">
-                        <img src="http://placehold.it/360x180?text=Anzeige" class="img-responsive" alt="..."/>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-12">
-                        <img src="http://placehold.it/360x180" class="img-responsive" alt="..."/>
-                    </div>
-                </div>
-            </div><!--fim da col-md-4-->
-        </div> <!--fim do container-->
-
-        <div class="container-fluid girabrasil">
-            <div class="row">
-                <div class="col-md-4"></div>
-                <div class="col-md-1 text-right title-giramundo">
-                    <img src="../img/giramundo-t.png" width="80%" height=80%;/>
-                </div>
-                <div class="col-md-7 title-girabrasil">
-                    <img src="../img/girabrasil.png" width="45%" height=45%;/>
                 </div>
             </div>
             <div class="row">
@@ -254,156 +126,417 @@
                     <hr>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12 text-center">
-                    <h5>GUIA INTERCULTURAL</h5>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-2 col-sm-1"></div>
-                <div class="col-md-2 col-sm-2 text-center">
-                    <h4><a class="page-scroll" href="#eventos"><i class="flaticon-cup sr-icons"></i><br>Eventos</a></h4>
-                </div>
-                <div class="col-md-2 col-sm-2 text-center">
-                    <h4><a class="page-scroll" href="#arte"><i class="flaticon-theatre-masks sr-icons"></i><br>Arte</a></h4>
-                </div>
-                <div class="col-md-2 col-sm-2 text-center">
-                    <h4><a class="page-scroll" href="#musica"><i class="flaticon-maracas-couple  sr-icons"></i><br>Música</a></h4>
-                </div>
-                <div class="col-md-2 col-sm-2 text-center">
-                    <h4><a class="page-scroll" href="#cultura"><i class="flaticon-brazil-carnival-mask  sr-icons"></i><br>Cultura</a></h4>
-                </div>
-                <div class="col-md-2 hidden-sm"></div>
+        </div>
 
-            </div>
-        </div><!--fim do container GIRABRASIL-->
-
-        <div class="container-fluid projetos">
+        <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
                     <div class="row title-line">
                         <h3 class="col-md-12">
-                            <span>PROJETOS</span>
+                            <span>Nossos Livros</span>
                         </h3>
                     </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="carousel slide multi-item-carousel" id="theCarousel">
+
+                    <div class="carousel slide multi-item-carousel slide-livro" id="theCarousel">
                         <div class="carousel-inner">
                             <div class="item active">
-                                <div class="col-xs-3"><a href="#1"><img src="http://placehold.it/200" class="img-responsive"></a></div>
-                            </div>
-                            <div class="item">
-                                <div class="col-xs-3"><a href="#1"><img src="http://placehold.it/200" class="img-responsive"></a></div>
-                            </div>
-                            <div class="item">
-                                <div class="col-xs-3"><a href="#1"><img src="http://placehold.it/200" class="img-responsive"></a></div>
-                            </div>
-                            <div class="item">
-                                <div class="col-xs-3"><a href="#1"><img src="http://placehold.it/200" class="img-responsive"></a></div>
-                            </div>
-                            <div class="item">
-                                <div class="col-xs-3"><a href="#1"><img src="http://placehold.it/200" class="img-responsive"></a></div>
-                            </div>
-                            <div class="item">
-                                <div class="col-xs-3"><a href="#1"><img src="http://placehold.it/200" class="img-responsive"></a></div>
-                            </div>
-                            <div class="item">
-                                <div class="col-xs-3"><a href="#1"><img src="http://placehold.it/200" class="img-responsive"></a></div>
+                                <div class="col-xs-3"><a href="landpage-livro/livro-historia-sombria.html"><img src="../img/livros/historias-sombrias-cover.jpg" class="img-responsive borda-livro" width="70%" height="70%"></a>
+                                </div>
                             </div>
 
-                            <!--  Example item end -->
+                            <div class="item">
+                                <div class="col-xs-3"><a href="landpage-livro/livro-a-bagagem.html"><img src="../img/livros/a-bagagem-cover.jpg" class="img-responsive borda-livro" width="70%" height="70%"></a> 
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="col-xs-3"><a href="livros.html"><img src="../img/livros/girabrasil-livro.jpg" class="img-responsive borda-livro" width="70%" height="70%"></a> 
+                                </div>
+                            </div>
                         </div>
-                        <!--
-<a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
-<a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
--->
+                        <!--  Example item end -->
                     </div>
+                    <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                    <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
                 </div>
             </div>
         </div>
 
-        <footer class="container-fluid">
-            <div class="row">
-                <div class="col-md-5"></div>
+
+        <div class="container-fluid">
+            <div class="col-md-8">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div id="carousel-index" class="carousel slide section-carousel-index" data-ride="carousel">
+                            <!-- Indicators -->
+                            <ol class="carousel-indicators">
+                                <li data-target="#carousel-index" data-slide-to="0" class="active"></li>
+                                <li data-target="#carousel-index" data-slide-to="1"></li>
+                                <li data-target="#carousel-index" data-slide-to="2"></li>
+                                <li data-target="#carousel-index" data-slide-to="3"></li>
+                            </ol>
+
+                            <!-- Wrapper for slides -->
+                            <div class="carousel-inner" role="listbox">
+                                <div class="item active">
+
+                                    <img src="../img/carousel-index/bem-vindo-site.png" class="img-responsive" width="80%" height="80%" alt="editora girabrasil">
+                                    <div class="carousel-caption">
+                                    </div>
+                                </div>
+
+                                <div class="item">
+                                    <img src="../img/carousel-index/lancamentos-abr-mai.png" alt="..." width="80%" height="80%">
+                                    <div class="carousel-caption">
+                                        <button type="button"  class="btn btn-default btn-xs"><a href="livros.html">Saiba mais</a></button> 
+                                    </div>
+                                </div>
+                                
+                                <div class="item">
+                                    <img src="../img/clube-gira.png" alt="..." width="80%" height="80%">
+                                    <div class="carousel-caption">
+                                        <button type="button" style="margin-left:100%" class="btn btn-default btn-xs"><a href="clube.html">Saiba mais</a></button> 
+                                    </div>
+                                </div>
+                                
+                                <div class="item">
+                                    <img src="../img/carousel-index/acordo-bilateral.jpg" class="img-responsive" alt="acordo bilateral de previdencia brasil e alemanha">
+                                    <div class="carousel-caption">
+                                        <div class="row">     
+                                            <div class="col-md-6">
+                                                <button type="button" style="margin:5% 0" class="btn btn-default btn-md"><a target="_blank" href="http://www.deutsche-rentenversicherung.de/cae/servlet/contentblob/298686/publicationFile/56387/arbeiten_deutschland_brasilien_portugisische_version.pdf">Confira o Material disponibilizado <br> na Palestra que aconteceu <br>em Erlangen em Out/2016</a></button> 
+                                            </div>
+                                            <div class="col-md-6">
+                                                <button type="button" style="margin:5% 0" class="btn btn-default btn-md"><a href="contato.html">Clique aqui para solicitação do <br>material impresso disponível <br>apenas em Alemão</a></button> 
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Controls -->
+                            <a class="left carousel-control" href="#carousel-index" role="button" data-slide="prev">
+                                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="right carousel-control" href="#carousel-index" role="button" data-slide="next">
+                                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row title-line">
+                            <h3 class="col-md-12">
+                                <span>Próximos Eventos</span>
+                            </h3>
+                        </div> 
+                    </div>
+                </div><!--fim da row-->
+
+                <div class="row">
+                    <div class="col-md-5 section-index-eventos" style="padding-bottom: 5%">
+                        <h4 class="text-center" style="margin-bottom:10%"><strong>Vivências Musicais para pais e filhos - Ilha da Lua</strong></h4>
+                        <img class="img-responsive" style="margin-bottom:20%"  src="../img/eventos/vivencia-musical.jpg" width="80%" height="80%"/>
+
+                        <span>SÁBADO: 20 de maio às 16:00 - 18:00</span><br>
+                        <spam>Local: RESTAURANTE MORENA BRASIL - ERLAGEN - BAVIERA</spam><br>
+
+                        <div class="row">
+                            <div class="col-md-4"></div>
+                            <div class="col-md-3">
+                                <button type="button" class="btn btn-default btn-xs" style="margin-left:30%"><a href="eventos/evento-vivencia-musical.html">Veja mais</a></button>
+                            </div>
+                            <div class="col-md-5"></div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-5 section-index-eventos" style="padding-bottom: 4%">
+                        <h4 class="text-center" style="margin-bottom:20%"><strong>A Escrita e o Imaginário social: faça você a sua história</strong></h4>
+                        <img class="img-responsive" style="margin-bottom:30%"  src="../img/eventos/oficina-escrita.jpg" width="80%" height="80%"/>
+
+                        <span>DOMINGO: 18 de junho às 14:30 - 18:00</span><br>
+                        <spam>Local: Erlangen</spam>
+
+                        <div class="row">
+                            <div class="col-md-4"></div>
+                            <div class="col-md-3">
+                                <button type="button" class="btn btn-default btn-xs" style="margin-left:30%"><a href="eventos/evento-oficina-de-escrita.html">Veja mais</a> </button>
+                            </div>
+                            <div class="col-md-5"></div>
+                        </div>
+                    </div>
+                </div><!--fim da row-->
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="row title-line">
+                            <h3 class="col-md-12">
+                                <span>Próximas Feiras</span>
+                            </h3>
+                        </div> 
+                    </div>
+                </div><!--fim da row-->
+
                 <!--
-<div class="col-md-1 text-right title-giramundo">
-<img src="../img/giramundo-t.png" width="55%" height=55%;/>
+<div class="row">
+<div class="col-md-5 section-index-eventos" style="padding-bottom: 5%">
+<h4 class="text-center"><strong>Apresentação <br>Jardim dos Cataventos</strong></h4>
+<img class="img-responsive"  src="../img/eventos/cata-vento-flyer.jpg" width="60%" height="60%"/>
+
+<span>SÁBADO: 8 de abril às 15:30 - 17:00</span><br>
+<spam>Local: RESTAURANTE MORENA BRASIL - ERLAGEN - BAVIERA</spam><br>
+
+<div class="row">
+<div class="col-md-4"></div>
+<div class="col-md-3">
+<button type="button" class="btn btn-default btn-xs" style="margin-left:30%"><a href="eventos/evento-jardim-catavento.html">Veja mais</a></button>
+</div>
+<div class="col-md-5"></div>
+</div>
 </div>
 -->
-                <div class="col-md-6 title-girabrasil">
-                    <a href="#"><img src="../img/girabrasil-footer.png" width="25%" height=25%;/></a>
-                </div>
-            </div>
-            <div class="row redes-sociais-footer">
-                <div class="col-md-4"></div>
-                <div class="col-md-4">
-                    <div class="col-md-4"></div>
-                    <div class="col-md-1">
-                        <a target="_blank" href="https://www.facebook.com/GUIA.GIRABRASIL/">
-                            <i class="fa fa-facebook fa-2x"></i></a>
-                    </div>
-                    <div class="col-md-1">
-                        <a target="_blank" href="https://www.linkedin.com/pulse/girabrasil-guia-intercultural-do-brasil-na-alemanha-m%C3%B6nch-pingel">
-                            <i class="fa fa-linkedin fa-2x"></i></a>
-                    </div>
-                    <div class="col-md-6"></div>
-                </div>
-                <div class="col-md-4"></div>
-            </div>
-
-            <div class="row menu-footer">
-                <div class="col-md-12 text-center">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-1 text-center">
-                        <a href="#"><strong>Editora</strong></a>
-                    </div>
-                    <div class="col-md-1 text-center">
-                        <a href="#"><strong>GIRABRASIL</strong></a>
-                    </div>
-                    <div class="col-md-1 text-center">
-                        <a href="#"><strong>Giramundo</strong></a>
-                    </div>
-                    <div class="col-md-1 text-center">
-                        <a href="#">Serviços</a>
-                    </div>
-                    <div class="col-md-1 text-center">
-                        <a href="#">Livros</a>
-                    </div>
-                    <div class="col-md-1 text-center">
-                        <a href="#">Eventos</a>
-                    </div>
-                    <div class="col-md-1 text-center">
-                        <a href="#">Projetos</a>
-                    </div>
-                    <div class="col-md-1 text-center">
-                        <a href="#">Contato</a>
-                    </div>
-                </div>
-            </div>
-            
-            <div class="row copyright">
+                <div class="row">
                 <div class="col-md-2"></div>
-                <div class="col-md-2">
-                <p>All Rights Reserved <i class="fa fa-copyright fa-1x"></i>    GIRABRASIL - 2017</p>
-                </div>
-                <div class="col-md-1 text-center"><span >|</span></div>
-                    <div class="col-md-2 img-right autor">
-                        <a target="_blank" href="http://www.sinaracastellem.com/"><p class="hidden-xs hidden-sm">Made with love by<img class="img-responsive" src="../img/assinatura_black.png" height="60%" width="60%" /></p></a>
-                </div>
-                <div class="col-md-1 text-center"><span>|</span></div>
-                        <div class="col-md-2">
-                        <p ><a href="http://www.flaticon.com/authors/freepik"> Icons designed by Freepik from Flaticon</a></p>
+                <div class="col-md-6 section-index-eventos" style="padding-bottom: 4%">
+                    <h4 class="text-center" ><strong>I Exposição de Literatura Internacional na Casa Brasil em Liechtentein</strong></h4>
+                    <img class="img-responsive" style="margin-left:27%" src="../img/feiras/1-exp-int-casa-brasil.png" width="50%" height="50%"/>
+
+                    <span>SÁBADO: 6 de maio às 16:00 - 17:30</span><br>
+                    <spam>Local: RESTAURANTE MORENA BRASIL - ERLAGEN - BAVIERA</spam>
+
+                    <div class="row">
+                        <div class="col-md-4"></div>
+                        <div class="col-md-3">
+                            <button type="button" class="btn btn-default btn-xs" style="margin-left:30%"><a href="feiras/1-exp-int-casa-brasil.html">Veja mais</a> </button>
                         </div>
+                        <div class="col-md-5"></div>
+                    </div>
+                </div>
+                <div class="col-md-3"></div>
+            </div><!--fim da row-->
+
+        </div>  <!--fim da col-md-8-->
+
+        <div class="col-md-4 anuncios">
+            <div class="row"> 
+                <div class="col-md-12" style="margin-top:10%">
+                    <a target="_blank" href="https://www.facebook.com/deliciosoerlangen/">
+                        <img src="../img/apoiadores/anuncio-delicioso-400x200.png" class="img-responsive" width="90%" height="90%" alt="restaurante delicioso"/></a>
+                </div>
+            </div><!--fim da row-->
+            <div class="row"> 
+                <div class="col-md-12">
+                    <a target="_blank" href="https://www.meinweinreich.de/">
+                        <img src="../img/apoiadores/anuncio-weinreich.png" class="img-responsive" width="90%" height="90%" alt="weinreich"/></a>
+                </div>
+            </div><!--fim da row-->
+            <div class="row"> 
+                <div class="col-md-12">
+                    <a target="_blank" href="http://www.latizon.de/">
+                        <img src="../img/apoiadores/anuncio-latizon-tv.png" style="padding:0" class="img-responsive" width="90%" height="90%" alt="latizon-tv"/></a>
+                </div>
+            </div><!--fim da row-->
+            <div class="row">     
+                <div class="col-md-12">
+                    <a target="_blank" href="http://www.chorinho.de/">
+                        <img src="../img/apoiadores/anuncio-chorinho.png" class="img-responsive" width="90%" height="90%" alt="chorinho"/></a>
+                </div>
+            </div><!--fim da row-->
+            <div class="row">     
+                <div class="col-md-12">
+                    <a target="_blank" href="http://unigranet-alemanha.blogspot.de/">
+                        <img src="../img/apoiadores/anuncio-unigran.jpg" class="img-responsive" width="90%" height="90%" alt="unigran"/></a>
+                </div>
+            </div><!--fim da row-->
+            <div class="row">     
+                <div class="col-md-12">
+                    <a target="_blank" href="http://www.portuguesenow.net/pt-br/">
+                        <img src="../img/apoiadores/anuncio-portuguese-now.png" class="img-responsive" width="90%" height="90%" alt="portuguese-now"/></a>
+                </div>
+            </div><!--fim da row-->
+            <div class="row">     
+                <div class="col-md-12">
+                    <a target="_blank" href="https://www.facebook.com/brasileirossemfronteiras/?fref=ts">
+                        <img src="../img/apoiadores/anuncio-bsf.jpg" style="padding:0" class="img-responsive" width="90%" height="90%" alt="brasil sem fronteiras"/></a>
+                </div>
+            </div><!--fim da row--> 
+             <div class="row">     
+                    <div class="col-md-12">
+                        <a target="_blank" href="http://www.terra-brasil.de/">
+                            <img src="../img/apoiadores/anuncio-terra-brasil.png" class="img-responsive" width="90%" height="90%" alt="terra brasil"/></a>
+                    </div>
+                </div><!--fim da row-->
+                <div class="row">     
+                    <div class="col-md-12">
+                        <a target="_blank" href="http://www.brazilconnections.net/">
+                            <img src="../img/apoiadores/anuncio-brasil-conection.jpg" class="img-responsive" width="90%" height="90%" alt="brasil-conection"/></a>
+                    </div>    
+                </div><!--fim da row-->
+        </div><!--fim da col-md-4-->
+        </div> <!--fim do container-->
+
+    <div class="container-fluid girabrasil">
+        <div class="row">
+            <div class="col-md-4"></div>
+            <div class="col-md-1 text-right title-giramundo">
+                <img src="../img/giramundo-t.png" width="80%" height=80%;/>
             </div>
-        </footer>
+            <div class="col-md-7 title-girabrasil">
+                <img src="../img/girabrasil-footer.png" width="45%" height=45%;/>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <hr>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h5>GUIA INTERCULTURAL | JORNAL ON-LINE</h5>
+            </div>
+        </div>
+        <div class="row jornal-capa">
+            <div class="col-md-2 col-sm-1"></div>
+            <div class="col-md-2 col-sm-2 text-center">
+                <a class="page-scroll" href="jornal-online-1-2017/artigo-editora.html"><img src="../img/jornal-capa/livros.png" class="img-responsive" width="100%" height="100%" alt="editora girabrasil"/></a><h4>EDITORA GIRABRASIL</h4>
+            </div>
+            <div class="col-md-2 col-sm-2 text-center">
+                <a class="page-scroll" href="jornal-online-1-2017/chorinho-brasilianisches.html"><img src="../img/jornal-capa/chorinho.png" class="img-responsive" width="100%" height="100%" alt="chorinho"/></a><h4>BRASILIANISCHES TEMPERAMENT TRIFFT PERUANISCHE GELASSENHEIT</h4>
+            </div>
+            <div class="col-md-2 col-sm-2 text-center">
+                <a class="page-scroll" href="jornal-online-1-2017/expedition-de.html"><img src="../img/jornal-capa/expedicao.png" class="img-responsive" width="100%" height="100%" alt="expedição"/></a><h4>EXPEDITION INS UNBEKANNTE: 200 JAHRE BRASILIENREISE</h4>
+            </div>
+            <div class="col-md-2 col-sm-2 text-center">
+                <a class="page-scroll" href="jornal-online-1-2017/artigo-cuidado-que-mancha.html"><img src="../img/jornal-capa/danca-balanca.png" class="img-responsive" width="100%" height="100%" alt="dança-balança"/></a><h4>CUIDADO QUE MANCHA</h4>
+            </div>
+        </div>
+
+        <div class="row  min-media-folder text-center">
+            <div class="col-md-5"></div>
+            <div class="col-md-2">
+                <a href="media-folder.html"><img class="text-center" src="../img/media-folder-min.png" class="img-responsive" width="40%"; height="40%;"><br>Anuncie</a>
+
+            </div>
+            <div class="col-md-4"></div>
+        </div>
+    </div><!--fim do container GIRABRASIL-->
+
+<!--
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="row title-line">
+                    <h3 class="col-md-12">
+                        <span>Aconteceu no Clube Girabrasil</span>
+                    </h3>
+                </div>
+                <div class="carousel slide multi-item-carousel slide-livro" id="clubgira">
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <div class="col-xs-3"><a href="eventos/evento-zoic.html"><img src="../img/eventos/zoic-apresentacao.jpg" class="img-responsive borda-livro" width="70%" height="70%"></a>
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="col-xs-3"><a href="eventos/evento-of-criativa.html"><img src="../img/eventos/ofi-criativa/ofi-1.jpg" class="img-responsive borda-livro" width="70%" height="70%"></a> 
+                            </div>
+                        </div>
+
+                        <div class="item">
+                            <div class="col-xs-3"><a href="eventos/evento-os-buriti.html"><img src="../img/eventos/os-buriti-apresentacao.jpg" class="img-responsive borda-livro" width="70%" height="70%"></a> 
+                            </div>
+                        </div>
+                    </div>
+                      Example item end 
+                </div>
+                <a class="left carousel-control" href="#clubgira" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                <a class="right carousel-control" href="#clubgira" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+            </div>
+        </div>
+    </div>
+-->
+
+    <div class="container-fluid mapa-site">
+        
+        <div class="row mapa-site">
+            <div class="col-md-2"></div>
+            <div class="col-md-2">
+                <h4 style="color:#0e700e;">Editora</h4>
+                <a href="editora.html">Sobre nós</a><br>
+                <a href="livros.html">Livros</a><br>
+                <a href="autores.html">Autores</a><br>
+                <a href="servicos.html">Serviços</a><br>
+                <a href="publicar.html">Para publicar</a><br>
+                <a href="parceiros.html">Parceiros</a>
+            </div>
+            <div class="col-md-2">
+                <h4 style="color:#0e700e;">Jornal</h4>
+                <a href="girabrasil.html">Jornal on-line</a><br>
+                <a href="giramundo.html">Mascote</a><br>
+                <a href="autores.html">Autores</a><br>
+                <a href="media-folder.html">Media Folder</a>
+            </div>
+            <div class="col-md-2">
+                <h4 style="color:#0e700e;">Eventos</h4>
+                <a href="eventos.html">Eventos</a><br>
+                <a href="feiras.html">Feiras</a><br>
+                <a href="clubgirabrasil.html">Clube GIRABRASIL</a><br>
+                <a href="apoiadores.html">Apoiadores</a>
+            </div>
+            <div class="col-md-2">
+                <h4><a href="contato.html">Contato</a></h4>
+                <h4><a href="impressum.html">Impressum</a></h4>
+
+            </div>
+            <div class="col-md-2"></div>
+        </div>
+
+    </div>
 
 
+    <footer class="container-fluid">
+        <div class="row">
+            <div class="col-md-5"></div>
+            <div class="col-md-6 title-girabrasil">
+                <a href="#"><img src="../img/girabrasil-footer-br.png" width="25%" height=25%;/></a>
+            </div>
+        </div>
+        <div class="row redes-sociais-footer">
+            <div class="col-md-4"></div>
+            <div class="col-md-4">
+                <div class="col-md-4"></div>
+                <div class="col-md-1">
+                    <a target="_blank" href="https://www.facebook.com/GUIA.GIRABRASIL/">
+                        <i class="fa fa-facebook fa-2x"></i></a>
+                </div>
+                <div class="col-md-1">
+                    <a target="_blank" href="https://www.linkedin.com/pulse/girabrasil-guia-intercultural-do-brasil-na-alemanha-m%C3%B6nch-pingel">
+                        <i class="fa fa-linkedin fa-2x"></i></a>
+                </div>
+                <div class="col-md-6"></div>
+            </div>
+            <div class="col-md-4"></div>
+        </div>
 
-
-
+        <div class="row copyright">
+            <div class="col-md-1"></div>
+            <div class="col-md-2">
+                <p>All Rights Reserved <i class="fa fa-copyright fa-1x"></i>    GIRABRASIL - 2017</p>
+            </div>
+            <div class="col-md-1 text-center"><span >|</span></div>
+            <div class="col-md-3 img-right autor">
+                <a target="_blank" href="http://www.sinaracastellem.com/"><p class="hidden-xs hidden-sm">Made with love by<img class="img-responsive" src="../img/assinatura_white.png" height="60%" width="60%" /></p></a>
+            </div>
+            <div class="col-md-1 text-center"><span>|</span></div>
+            <div class="col-md-2">
+                <a href="http://www.flaticon.com/authors/freepik"> <p>Icons designed by Freepik from Flaticon</p></a>
+            </div>
+        </div>
+    </footer>
 
     <!-- jQuery -->
     <script src="../vendor/jquery/jquery.min.js"></script>

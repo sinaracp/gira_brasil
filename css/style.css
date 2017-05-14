@@ -508,3 +508,21 @@ img-left {
     margin-top: 10%;
 }
 
+/*modal*/
+
+.modal-body h2 {
+    color: #0e700e;
+}
+
+.modal-dialog {
+     background: #dde884;
+    border-radius: 0;
+    border-left-width:thick;
+    border-left-color: #75af27;
+    border-left-style: solid;
+
+    box-shadow: 5px 5px 10px #948780;
+    -webkit-box-shadow: 5px 5px 10px #948780;
+    -moz-box-shadow: 5px 5px 10px #948780;
+    margin-bottom: 30px;
+}
