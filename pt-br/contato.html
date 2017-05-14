@@ -56,7 +56,7 @@
 
         <div class="container index">
             <div class="row">
-                
+
                 <div class="col-md-4 img-logo">
                     <img class="img-responsive" style="margin-left:50%" src="../img/giramundo.png" width="80%" height=80%;/>
                 </div>
@@ -127,7 +127,7 @@
                 </div>
             </div>
         </div>
-        
+
 
         <section id="contato">
             <div class="container-fluid">
@@ -145,25 +145,25 @@
                     <div class="col-md-2"></div>
                     <div class="col-md-8">
                         <!--formulário de contato-->
-                        <form>
+                        <form method="POST" action="../mailer.php">
                             <div class="form-group row form-contato">
                                 <div class="col-md-2"></div>
                                 <div class="col-md-8 text-center">
-                                    <input type="text" class="form-control" id="exampleInputName2" placeholder="Seu nome"/>
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Seu nome"/>
                                 </div>
                                 <div class="col-md-2"></div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-2"></div>
                                 <div class="col-md-8 text-center">
-                                    <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Seu E-mail"/>
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Seu E-mail"/>
                                 </div>
                                 <div class="col-md-2"></div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-2"></div>
                                 <div class="col-md-8 text-center">
-                                    <input class="form-control" type="tel" placeholder="Seu Telefone" id="example-tel-input"/>
+                                    <input class="form-control" type="tel" placeholder="Seu Telefone" id="phone" name="phone"/>
                                 </div>
                                 <div class="col-md-2"></div>
                             </div>
@@ -172,7 +172,7 @@
                                 <div class="col-md-4"></div>
                                 <div class="col-md-6">
                                     <div class="col-md-2">
-                                        <select class="custom-select">
+                                        <select class="custom-select" id="service" name="service">
                                             <option selected>Como podemos te ajudar</option>
                                             <option value="Compra de Livros">Encomenda de Livros GIRABRASIL</option>
                                             <option value="Compra de Livros">Encomenda de Livros Parceiros</option>
@@ -193,13 +193,13 @@
                             <div class="form-group row">
                                 <div class="col-md-2"></div>
                                 <div class="col-md-8">
-                                    <textarea class="form-control" type="text" placeholder="Deixe sua mensagem" id="exampleMessage" rows="5"></textarea>
+                                    <textarea class="form-control" type="text" placeholder="Deixe sua mensagem" id="message" name="message" rows="5"></textarea>
                                 </div>
                                 <div class="col-md-2"></div>
                             </div>
                             <div class="form-group row">
                                 <div class="col-md-12 text-center">
-                                    <button type="submit" class="btn btn-default btn-formulario">Enviar</button>
+                                    <button type="submit" name="submit" class="btn btn-default btn-formulario">Enviar</button>
                                 </div>
                             </div>
                         </form>
@@ -231,12 +231,12 @@
                             </div>
 
                             <div class="item">
-                                <div class="col-xs-3"><a href="landpage-livro/livro-a-bagagem.html"><img src="../img/livros/a-bagagem-cover.jpg" class="img-responsive borda-livro" width="70%" height="70%"></a> 
+                                <div class="col-xs-3"><a href="landpage-livro/livro-a-bagagem.html"><img src="../img/livros/a-bagagem-cover.jpg" class="img-responsive borda-livro" width="70%" height="70%"></a>
                                 </div>
                             </div>
 
                             <div class="item">
-                                <div class="col-xs-3"><a href="livros.html"><img src="../img/livros/girabrasil-livro.jpg" class="img-responsive borda-livro" width="70%" height="70%"></a> 
+                                <div class="col-xs-3"><a href="livros.html"><img src="../img/livros/girabrasil-livro.jpg" class="img-responsive borda-livro" width="70%" height="70%"></a>
                                 </div>
                             </div>
                         </div>
