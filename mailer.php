@@ -8,6 +8,10 @@
     $message = $_POST['message'];
     $headers = "Content-Type: text/plain; charset=UTF-8";
 
+    $headers = "Content-Type: text/plain; charset=UTF-8" . "\r\n" .
+               "From: info@girabrasil.de" . "\r\n" .
+               "BCC: sinaracp@gmail.com";
+
     $subject = "$name_field / $service_field";
     $body = "Nome: $name_field\nE-Mail: $email_field\nTelefone: $phone_field \n\nMensagem:\n $message";
 
