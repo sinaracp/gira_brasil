@@ -30,7 +30,34 @@ html, body {
 .my-navbar > i > a {
     color:  #fcf8e3 !important;
 }
+@media (max-width: 768px) {
+    .nav-secundario{
+        background: none;
+        border: none;
+        margin-left: 40%;
+        margin-bottom: 0;
+    }
+}
+@media (min-width: 769px) {
+    .nav-secundario{
+        background: none;
+        border: none;
+        margin-left: 14%;
+        margin-bottom: 0;
+    }
+}
+@media (min-width: 1200px) {
+    .nav-secundario{
+        background: none;
+        border: none;
+        margin-left: 31%;
+        margin-bottom: 0;
+    }
+}
 
+.nav-secundario a {
+    color:  #0e700e !important;
+}
 
 .img-logo {
     padding-top: 7%;
@@ -76,11 +103,11 @@ a:hover {
 .drop-menu li {
     padding-left: 0;
 }    
-    .slide-livro {
-      margin-top: 30px;
+.slide-livro {
+    margin-top: 30px;
     padding-left: 120px;
-     padding-right: 30px;
-  }
+    padding-right: 30px;
+}
 
 .title-line h3 {
     width: 100%;
@@ -88,7 +115,7 @@ a:hover {
     border-bottom: 0.5px solid #0e700e;
     line-height: 0.1em;
     margin: 20px 0 0;
-/*    margin-bottom: 30px;*/
+    /*    margin-bottom: 30px;*/
     padding-top: 3%;
     color: #0e700e; 
 }
@@ -128,8 +155,8 @@ a:hover {
     margin-bottom: 5%;
     margin-left: 5%;
     margin-right: 3%;
-    
-    
+
+
     border-left-width:thick;
     border-left-color: #75af27;
     border-left-style: solid;
@@ -159,17 +186,17 @@ a:hover {
     border-radius: 50px;
 }
 .anuncios img {
-/*
+    /*
     padding-top: 6%;   
     padding-bottom: 6%;
-*/
+    */
     margin-top: 0;
-   margin-left: 10%;
-/*
+    margin-left: 10%;
+    /*
     border-left-width:thick;
     border-left-color: #75af27;
     border-left-style: solid;
-*/
+    */
 
     box-shadow: 5px 5px 10px #948780;
     -webkit-box-shadow: 5px 5px 10px #948780;
@@ -226,7 +253,7 @@ a:hover {
     position-relative;
     width: 140px;
     height: 180px;  
-    
+
     margin-left: 30%;
 }
 .equipe {
@@ -235,14 +262,14 @@ a:hover {
     padding: 20px;
     border-left-width:thick;
     border-left-color: #75af27;
-/*
+    /*
     border-style: solid;
     border-color: #75af27;
     border-top-width: thin;
     border-bottom-width: thin;
     border-right-width: thin;
-*/
-    
+    */
+
     box-shadow: 5px 5px 10px #948780;
     -webkit-box-shadow: 5px 5px 10px #948780;
     -moz-box-shadow: 5px 5px 10px #948780;
@@ -498,7 +525,7 @@ img-left {
     margin-left: 0;
 }
 .video {
-     margin-top: 5%;
+    margin-top: 5%;
     margin-bottom: 5%;
     margin-left: 5%;
 }
@@ -514,7 +541,7 @@ img-left {
 }
 
 .modal-dialog {
-     background: #dde884;
+    background: #dde884;
     border-radius: 0;
     border-left-width:thick;
     border-left-color: #75af27;
