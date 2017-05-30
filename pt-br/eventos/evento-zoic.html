@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,7 +8,7 @@
         <!-- As 3 meta tags acima *devem* vir em primeiro lugar dentro do `head`; qualquer outro conteúdo deve vir *após* essas tags -->
 
         <title>GIRABRASIL</title>
-        <link rel="shortcut icon" href="../ ../img/giramundo-t.png" >
+        <link rel="shortcut icon" href="../../img/giramundo-t.png" >
 
         <!-- Custom Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet">
@@ -27,103 +28,158 @@
 
     <body id="page-top">
 
+        <!-- inicio navbar new -->
+
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="my-navbar container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header my-navbar">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav my-navbar">
+                        <li><a href="../index-carousel.html#page-top">Home</a></li>
+                        <li><a href="../editora.html">Editora</a></li>
+                        <li><a href="../girabrasil.html">Jornal Online</a></li>
+                        <li><a href="../contato.html">Contato</a></li>
+                        <li><a href="../impressum.html">Impressum</a></li>       
+                    </ul>
+                    <ul class="nav navbar-nav navbar-right my-navbar">
+                        <li><a class="navbar-brand" target="_blank" href="https://www.facebook.com/GUIA.GIRABRASIL/">
+                            <i class="fa fa-facebook fa-1x"></i></a></li>
+                        <li><a class="navbar-brand" target="_blank" href="https://www.linkedin.com/pulse/girabrasil-guia-intercultural-do-brasil-na-alemanha-m%C3%B6nch-pingel">
+                            <i class="fa fa-linkedin fa-1x"></i></a></li>
+                        <li>
+                            <a class="page-scroll" data-toggle="modal" data-target= "#deutsch"><img src="../../img/001-germany.png"/></a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+
+        <!-- fim navbar new -->
+
         <header>
-            <nav class="navbar navbar-default navbar-fixed-top">
-                <div class="my-navbar container-fluid ">
+            <!--        início do modal versão em alemão  -->
+
+            <div class="modal fade" id="deutsch" tabindex="-1" role="dialog">
+                <div class="modal-dialog" role="document">
+                    <div class="modal-content">
+                        <div class="modal-body text-center">
+
+                            <img class="img-responsive" style="margin-left:25%" src="../../img/giramundo.png" width="50%" height=50%;/>
+
+
+                            <img class="img-responsive" style="margin-top:5%" src="../../img/girabrasil-footer.png" width="100%" height=100%;/>
+
+                            <h3>INTERKULTURELLES JOURNAL PORTUGISCH UND DEUTSCHLAND</h3>
+
+                            <h2>Bald auch auf Deutsch!</h2>  
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
+                        </div>
+                    </div><!-- /.modal-content -->
+                </div><!-- /.modal-dialog -->
+            </div><!-- /.modal -->
+
+            <!--        fim do modal versão em alemão -->
+
+
+            <div class="container index">
+                <div class="row">
+                    <!--inicio col-mobile-->
+                    <div class="col-xs-8 col-md-4 img-logo">
+                        <img class="img-responsive" style="margin-left:50%" src="../../img/giramundo.png" width="80%" height=80%;/>
+                    </div>
+                    <!--inicio col-mobile-->
+
+                    <div class="col-md-6 img-girabrasil">
+                        <img class="img-responsive" style="margin-top:10%" src="../../img/girabrasil-footer.png" width="80%" height=80%;/>
+                    </div>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-12">
+                        <h3>GUIA INTERCULTURAL E EDITORA DE LIVROS BRASILEIROS NA ALEMANHA</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="container-fluid menu">
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr>
+                    </div>
+                </div>
+            </div>
+
+            <!-- inicio navbar mobile -->
+            <nav class="navbar navbar-default nav-secundario">
+                <div class="container-fluid">
+
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="../livros.html">Livros</a>
+                    </div>
+
+
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                        <ul class="nav navbar-nav my-navbar">
-                            <li role="presentation"><a href="../index-carousel.html#page-top">Home</a></li>
-                            <li role="presentation"><a href="../editora.html">Editora</a></li>
-                            <li role="presentation"><a href="../girabrasil.html">Jornal GIRABRASIL</a></li>
-                            <li role="presentation"><a href="../contato.html">Contato</a></li>
-                            <li role="presentation"><a href="../impressum.html">Impressum</a></li>
-                        </ul>
-
-                        <ul class="nav navbar-nav navbar-right my-navbar">
-                            <li><a class="navbar-brand" target="_blank" href="https://www.facebook.com/GUIA.GIRABRASIL/">
-                                <i class="fa fa-facebook fa-1x"></i></a></li>
-                            <li><a class="navbar-brand" target="_blank" href="https://www.linkedin.com/pulse/girabrasil-guia-intercultural-do-brasil-na-alemanha-m%C3%B6nch-pingel">
-                                <i class="fa fa-linkedin fa-1x"></i></a></li>
-                            <li><a class="page-scroll" href="../de/index-de.html"><img src="../../img/001-germany.png"/></a></li>
-                        </ul>
-                    </div><!-- /.navbar-collapse -->
-                </div><!-- /.container-fluid -->
-            </nav>
-        </header>
-
-        <div class="container index">
-            <div class="row">
-                <div class="col-md-4 img-logo">
-                    <img class="img-responsive" style="margin-left:50%" src="../../img/giramundo.png" width="80%" height=80%;/>
-                </div>
-                <div class="col-md-6 img-girabrasil" style="margin-left:2%">
-                    <img class="img-responsive" style="margin-top:10%" src="../../img/girabrasil-footer.png" width="80%" height=80%;/>
-                </div>
-                <div class="col-md-2"></div>
-                <div class="col-md-12">
-                    <h3>GUIA INTERCULTURAL E EDITORA DE LIVROS BRASILEIROS NA ALEMANHA</h3>
-                </div>
-            </div>
-        </div>
-
-        <div class="container-fluid menu">
-            <div class="row">
-                <div class="col-md-12">
-                    <hr>
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-md-1"></div>
-                <div class="col-md-11 text-center" style="margin-left:12%">
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
-                            <li role="presentation"><a href="../index-carousel.html">Home</a></li>
+
                             <li class="dropdown">
-                                <a href="eventos.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><strog>Editora</strog><span class="caret"></span></a>
-                                <ul class="dropdown-menu drop-menu">
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Editora <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
                                     <li><a href="../editora.html">Sobre nós</a></li>
-                                    <li><a href="../autores.html"> Autores</a></li>
-                                    <li><a href="../servicos.html"> Serviços</a></li>
+                                    <li><a href="../autores.html">Autores</a></li>
+                                    <li><a href="../servicos.html">Serviços</a></li>
                                     <li><a href="../publicar.html">Para Publicar</a></li>
                                     <li><a href="../parceiros.html">Parceiros</a></li>
                                 </ul>
                             </li>
 
-                            <li role="presentation"><a href="../livros.html">Livros</a></li>
-
                             <li class="dropdown">
-                                <a href="eventos.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"><strog>Jornal GIRABRASIL</strog><span class="caret"></span></a>
-                                <ul class="dropdown-menu drop-menu">
-                                    <li><a href="../girabrasil.html">Jornal On-line</a></li>
-                                    <li><a href="../giramundo.html"> Mascote</a></li>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Jornal GIRABRASIL<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../girabrasil.html">Jornal Online</a></li>
+                                    <li><a href="../giramundo.html">Mascote</a></li>
                                     <li><a href="../media-folder.html">Media Folder</a></li>
                                     <li><a href="../apoiadores.html">Apoiadores</a></li>
                                 </ul>
                             </li>
 
-
                             <li class="dropdown">
-                                <a href="eventos.html" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Eventos<span class="caret"></span></a>
-                                <ul class="dropdown-menu drop-menu">
-                                    <li><a href="../eventos.html#eventos-literarios">Eventos</a></li>
-                                    <li><a href="../feiras.html">Feiras</a></li>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Eventos<span class="caret"></span></a>
+                                <ul class="dropdown-menu">
                                     <li><a href="../clube.html">Clube GIRABRASIL</a></li>
+                                    <li><a href="../eventos.html">Eventos</a></li>
+                                    <li><a href="../feiras.html">Feiras</a></li>
+                                     <li><a href="../eventos-apoiados.html">Eventos Apoiados GIRABRASIL</a></li>
                                 </ul>
                             </li>
-                            <li role="presentation"><a href="../contato.html">Contato</a></li>
-                            <li role="presentation"><a href="../impressum.html">Impressum</a></li>
+
+                            <li><a href="../contato.html">Contato</a></li>
+                            <li><a href="../impressum.html">Impressum</a></li>
+
                         </ul>
+                    </div><!-- /.navbar-collapse -->
+                </div><!-- /.container-fluid -->
+            </nav>
+
+            <!-- fim navbar mobile -->
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12">
+                        <hr>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12">
-                    <hr>
-                </div>
-            </div>
-        </div>
+        </header>
 
         <div class="container-fluid">
             <div class="col-md-8">
@@ -303,7 +359,7 @@
             </div>
         </div>
 
-        <div class="container-fluid mapa-site">
+         <div class="container-fluid mapa-site">
             <div class="row">
                 <div class="col-md-12">
                     <hr>
@@ -329,9 +385,10 @@
                 </div>
                 <div class="col-md-2">
                     <h4 style="color:#0e700e;">Eventos</h4>
+                    <a href="../clube.html">Clube GIRABRASIL</a><br>
                     <a href="../eventos.html">Eventos</a><br>
                     <a href="../feiras.html">Feiras</a><br>
-                    <a href="../clubgirabrasil.html">Clube GIRABRASIL</a><br>
+                    <a href="../eventos-apoiados.html">Eventos apoiados GIRABRASIL</a><br>
                     <a href="../apoiadores.html">Apoiadores</a>
                 </div>
                 <div class="col-md-2">
