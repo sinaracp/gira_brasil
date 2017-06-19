@@ -25,7 +25,7 @@ html, body {
 .my-navbar {
     background-color: #0e700e;
     color: black;
-    padding: none;    
+    padding: none;  
 }
 .my-navbar > li > a {
     color:  #fcf8e3 !important;
