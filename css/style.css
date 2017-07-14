@@ -25,9 +25,7 @@ html, body {
 .my-navbar {
     background-color: #0e700e;
     color: black;
-    padding: none;  
-    
-     
+    padding: none;   
 }
 .my-navbar > li > a {
     color:  #fcf8e3 !important;
@@ -55,7 +53,7 @@ html, body {
     .nav-secundario{
         background: none;
         border: none;
-        margin-left: 31%;
+        margin-left: 27%;
         margin-bottom: 0;
     }
 }
