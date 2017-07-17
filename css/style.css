@@ -446,7 +446,32 @@ img-left {
     margin-left: 12%;
     margin-top: 15%;
 }
+.estante-ilustaracoes span{
+     font-size: 12px;
+}
 
+.colecao-ilustracoes {
+    margin-top: 5%;
+    margin-bottom: 3%;
+    color: #0e700e;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+.colecao-ilustracoes p {
+    color: #0e700e;
+    font-size: 14px;
+    text-align: center;
+     margin-bottom: 3%;
+}
+
+.colecao-ilustracoes span{
+    color: #0e700e;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase; 
+}
 
 
 .btn-autor{
@@ -555,3 +580,6 @@ img-left {
     -moz-box-shadow: 5px 5px 10px #948780;
     margin-bottom: 30px;
 }
+
+
+
