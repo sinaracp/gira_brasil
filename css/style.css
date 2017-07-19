@@ -188,6 +188,12 @@ a:hover {
 .jornal-capa img {
     border-radius: 50px;
 }
+
+.jornal-capa h4 {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
 .anuncios img {
     /*
     padding-top: 6%;   
@@ -337,7 +343,7 @@ footer p {
     padding-bottom: 30px;
 }
 .page-media-folder h4 {
-    font-size: 16px;
+    font-size: 16px; 
     text-align: center;
     text-transform: uppercase;
     padding-top: 20px;
