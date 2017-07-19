@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="de">
 
     <head>
         <meta charset="utf-8">
@@ -23,6 +23,8 @@
         <!-- Theme CSS -->
         <link href="../css/style.css" rel="stylesheet">
         <link href="../css/carousel.css" rel="stylesheet">
+        <link href="../vendor/slick-1.6.0/slick/slick.css" rel="stylesheet">
+        <link href="../vendor/slick-1.6.0/slick/slick-theme.css" rel="stylesheet">
 
     </head>
 
@@ -45,19 +47,21 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav my-navbar">
-                        <li><a href="index-carousel.html#page-top">Home</a></li>
-                        <li><a href="editora.html">Editora</a></li>
-                        <li><a href="girabrasil.html">Jornal Online</a></li>
-                        <li><a href="contato.html">Contato</a></li>
+                        <li><a href="index.html#page-top">Home</a></li>
+                        <li><a href="verlag.html">Verlag</a></li>
+                        <li><a href="girabrasil-de.html">Online Journal</a></li>
+                        <li><a href="kontakt.html">Kontakt</a></li>
                         <li><a href="impressum.html">Impressum</a></li>       
                     </ul>
                     <ul class="nav navbar-nav navbar-right my-navbar">
                         <li><a class="navbar-brand" target="_blank" href="https://www.facebook.com/GUIA.GIRABRASIL/">
                             <i class="fa fa-facebook fa-1x"></i></a></li>
+                        <li><a class="navbar-brand" target="_blank" href="https://www.instagram.com/?hl=pt">
+                            <i class="fa fa-instagram fa-1x"></i></a></li>
                         <li><a class="navbar-brand" target="_blank" href="https://www.linkedin.com/pulse/girabrasil-guia-intercultural-do-brasil-na-alemanha-m%C3%B6nch-pingel">
                             <i class="fa fa-linkedin fa-1x"></i></a></li>
                         <li>
-                            <a class="page-scroll" data-toggle="modal" data-target= "#deutsch"><img src="../img/001-germany.png"/></a></li>
+                            <a class="navbar-brand"  href="../pt-br/index.html"><img src="../img/002-brazil.png"/></a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -66,46 +70,21 @@
         <!-- fim navbar new -->
 
         <header>
-            <!--        início do modal versão em alemão  -->
-
-            <div class="modal fade" id="deutsch" tabindex="-1" role="dialog">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-body text-center">
-
-                            <img class="img-responsive" style="margin-left:25%" src="../img/giramundo.png" width="50%" height=50%;/>
-
-
-                            <img class="img-responsive" style="margin-top:5%" src="../img/girabrasil-footer.png" width="100%" height=100%;/>
-
-                            <h3>INTERKULTURELLES JOURNAL PORTUGISCH UND DEUTSCHLAND</h3>
-
-                            <h2>Bald auch auf Deutsch!</h2>  
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
-                        </div>
-                    </div><!-- /.modal-content -->
-                </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-
-            <!--        fim do modal versão em alemão -->
-
 
             <div class="container index">
                 <div class="row">
                     <!--inicio col-mobile-->
                     <div class="col-xs-8 col-md-4 img-logo">
-                        <img class="img-responsive" style="margin-left:50%" src="../img/giramundo.png" width="80%" height=80%;/>
+                        <img class="img-responsive" style="margin-left:25%" src="../img/giramundo.png" width="100%" height=100%;/>
                     </div>
                     <!--inicio col-mobile-->
 
                     <div class="col-md-6 img-girabrasil">
-                        <img class="img-responsive" style="margin-top:10%" src="../img/girabrasil-footer.png" width="80%" height=80%;/>
+                        <img class="img-responsive" style="margin-top:16%" src="../img/girabrasil-footer.png" width="100%" height=100%;/>
                     </div>
                     <div class="col-md-2"></div>
                     <div class="col-md-12">
-                        <h3>GUIA INTERCULTURAL E EDITORA DE LIVROS BRASILEIROS NA ALEMANHA</h3>
+                        <h3 style="text-transform: uppercase">Interkulturelles Journal und Verlag für brasilianische Bücher in Deutschland</h3>
                     </div>
                 </div>
             </div>
@@ -123,53 +102,62 @@
                 <div class="container-fluid">
 
                     <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="livros.html">Livros</a>
+                    <div class="navbar-header dropdown">
+                        <a class="navbar-brand dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="padding-left:0" href="bucher.html">Online Bücherei</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="bucher.html#bucher-gira">Bücher GIRABRASIL</a></li>
+                            <li><a href="bucher.html.html#bucher-partner">Bücher Partner</a></li>
+                            <li><a href="bucher.html#kinderbucher-partner">Kinderbücher Partner</a></li>
+                            <li><a href="illustrationen.html">Illustrationen</a></li>
+                        </ul>
                     </div>
-
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
 
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Editora <span class="caret"></span></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Verlag <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="editora.html">Sobre nós</a></li>
-                                    <li><a href="autores.html">Autores</a></li>
-                                    <li><a href="servicos.html">Serviços</a></li>
-                                    <li><a href="publicar.html">Para Publicar</a></li>
-                                    <li><a href="parceiros.html">Parceiros</a></li>
+                                    <li><a href="verlag.html">Über uns</a></li>
+                                    <!--                                    <li><a href="autores.html">Autoren</a></li>-->
+                                    <li><a href="service.html">Service</a></li>
+                                    <li><a href="veroffentlichen.html">Bücher veröffentlichen</a></li>
+                                    <li><a href="partner.html">Partner</a></li>
                                 </ul>
                             </li>
 
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Jornal GIRABRASIL<span class="caret"></span></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Journal GIRABRASIL<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="girabrasil.html">Jornal Online</a></li>
-                                    <li><a href="giramundo.html">Mascote</a></li>
-                                    <li><a href="media-folder.html">Media Folder</a></li>
-                                    <li><a href="apoiadores.html">Apoiadores</a></li>
+                                    <li><a href="girabrasil-de.html">Online Journal</a></li>
+                                    <!--                                    <li><a href="giramundo.html">Masköttchen</a></li>-->
+<!--                                    <li><a href="media-folder.html">Media Folder</a></li>-->
+                                    <li><a href="unterstützer.html">Ünterstützer</a></li>
                                 </ul>
                             </li>
 
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Eventos<span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="clube.html">Clube GIRABRASIL</a></li>
-                                    <li><a href="eventos.html">Eventos</a></li>
-                                    <li><a href="feiras.html">Feiras</a></li>
-                                    <li><a href="eventos-apoiados.html">Eventos Apoiados GIRABRASIL</a></li>
-                                </ul>
-                            </li>
+                            <!--
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Eventos<span class="caret"></span></a>
+<ul class="dropdown-menu">
+<li><a href="clube.html">Clube GIRABRASIL</a></li>
+<li><a href="eventos.html">Eventos</a></li>
+<li><a href="feiras.html">Feiras</a></li>
+<li><a href="eventos-apoiados.html">Eventos Apoiados GIRABRASIL</a></li>
+</ul>
+</li>
+-->
 
-                            <li><a href="contato.html">Contato</a></li>
+                            <li><a href="kontakt.html">Kontakt</a></li>
+                          
                             <li><a href="impressum.html">Impressum</a></li>
 
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
             </nav>
+
 
             <!-- fim navbar mobile -->
             <div class="container-fluid">
@@ -188,7 +176,7 @@
                     <div class="col-md-12">
                         <div class="row title-line">
                             <h3 class="col-md-12">
-                                <span>Jornal GIRABRASIL</span>
+                                <span>Journal GIRABRASIL</span>
                             </h3>
                         </div>
 
@@ -202,30 +190,17 @@
 
                         <div class="row">
                             <div class="col-md-12 text-center">
-                                <p>Jornal Intercultural Brasileiro!</p>
+                                
+                                <p>Das zweisprachig (Deutsch und Portugiesisch) gehaltene, kostenfrei ausliegende interkulturelle Journal für Brasilien bietet einen Überblick über Kunst, Kultur, Musik, Lebensart und Dienstleistungen aller Art rund um das Thema Brasilien in Deutschland, ohne die bewährten Klischees zu bedienen. Ebenso werden interessante und wichtige Themen für Brasilianer, die in Deutschland leben, gebracht. Brasilien: mehr als nur Samba, Fußball und Copacabana!</p>
 
-                                <p>Um guia focado em divulgar empreendedores, artistas, artesãos e servidores de serviços em geral para promover o Brasil e o Brasileiro, que na Alemanha encontrou a sua nova moradia e aqui faz o seu trabalho.</p>
+                                <p>Neben Dienstleister- und Künstleranzeigen führen Kurzreportagen und Einzelportraits durch die Welt Brasiliens und der Brasilianer in Deutschland.</p>
 
-                                <p>Um guia, que lhe dará oportunidade de se apresentar a um grande público, alemão e brasileiro. Um guia com uma parte voltada aos anúncios, mas mais importante ainda uma outra parte voltada a artigos redacionais sobre diferentes temas relacionados com o Brasil em geral e o Brasileiro na Alemanha, assim como temas de interesse do Brasileiro, que escolheu este país como seu novo lar. O guia se torna assim um fórum de trocas de informações de interesse para a comunidade brasileira e alemã.</p>
-
-                                <p>Um guia interessante também para quem faz ou quer fazer e promover negócios brasileiros. Um guia, que estará apresentando e trazendo o Brasil um pouco mais perto da Alemanha. É o Brasil girando até você!</p>
+                                <p>Themenschwerpunkte in jedem Heft lassen jede Ausgabe wieder zu einem neuen Erlebnis für den Leser werden.</p>
+                                
+                                <p>Zum einen sprechen wir in Deutschland lebende Brasilianer an, die sich und ihre Dienstleistungen präsentieren wollen und aktuelles über ihre Kultur und ihr Land erfahren wollen.</p>
+                                
+                                <p>Zum anderen alle Menschen, die sich für Land und Lebensart interessieren, die mehr erfahren wollen über Kultur, Land, Leute und Aktualitäten. Einzelpersonen, Dienstleister, Künstler, Firmen, Institutionen die rund um das Thema Brasilien agieren und sich präsentieren wollen.</p>
                             </div>
-                            <div class="col-md-12 text-center" style="margin-top:5%">
-                                <h4 style="color:#0e700e">Confira as edições anteriores:</h4>
-                            </div>
-                            <div class="col-md-4"></div>
-                            <!--
-<div class="col-md-3">
-Botão padrão 
-<button type="button" style="margin-top:20%" class="btn btn-default btn-lg"><a href="contato.html">ED PRI/VER 2016</a></button>
-</div>
-<div class="col-md-2"></div>
--->
-                            <div class="col-md-4">
-                                <!-- Botão padrão -->
-                                <button type="button" style="margin-top:20%; margin-left:17%" class="btn btn-default btn-lg"><a target="_blank" href="../pdf/girabrasil-inv-2016.pdf">ED OUT/INV 2016</a></button>
-                            </div>
-                            <div class="col-md-4"></div>
                         </div>
                     </div>
                 </div>
@@ -234,7 +209,7 @@ Botão padrão
                     <div class="col-md-12">
                         <div class="row title-line">
                             <h3 class="col-md-12">
-                                <span>Edição PRI/VER 2017 ON-LINE</span>
+                                <span>FRÜHJAHR/SOMMER 2017 ON-LINE</span>
                             </h3>
                         </div>  
                     </div>
@@ -243,16 +218,19 @@ Botão padrão
                 <div class="row">
                     <div class="col-md-12">
                         <div class="row">
-                            <h3 class="col-md-12">
+                            <h4 class="col-md-12 text-center" style="margin-bottom: 5%">
                                 <img src="../img/jornal-online/girabrasil-sommer-17.png" class="img-responsive" style="margin: 0" alt="..."/>
-                                <br><span>Editoral GIRABRASIL Primavera | Verão 2017</span>
-                            </h3>
+                                <br><span>Editoral GIRABRASIL FRÜHJAHR/SOMMER 2017 2017</span><br>
+                            
+                                <span>Und der GIRABRASIL dreht weiter seine Runden...</span></h4>
                         </div>
+                        
+                        
                         <div class="row">
                             <div class="col-md-12 text-center">
-                                <p>Este ano se festeja 200 anos desde a grande viagem científica de Martius e Spix ao Brasil, que nos trouxeram as primeiras informações fundadas  sobre fauna,  flora e os primeiros relatos sobre a vida da população nativa. Uma viagem cheia de descobertas, suposições e poucas certezas, e certamente muitos perigos.</p>
-                                <p>200 anos depois, ainda temos muito o que descobrir sobre o Brasil. Sua imensidão, sua diversidade, sua culturalidade, seu povo. Hoje, pequenas expedições brasileiras trazem à Europa um pequeno extrato deste desconhecido - expedições com nomes de: Os Buritis ou Cuidado Que Mancha. Expedições acadêmicas como o Brasilienkontext da Universidade de Regensburg ou a exposição no Jardim Botânico em Erlangen; musicais com grupo do Conservatório São João del Rei; literárias como o espaço INNOVATION em Liechtenstein, da Casa Brasil.</p>
-                                <p>O <strong>Jornal GIRABRASIL</strong> acompanha e faz questão de divulgar e apoiar estas iniciativas que mostram uma parte do Brasil em grande parte desconhecida. Junte-se a nós e nos acompanhe nestas empolgantes jornadas!</p>
+                                <p>Vor 200 Jahren brachen Martius und Spix zu einer großen Forschungsreise nach Brasilien auf und brachten so erste fundierte Informationen über die Vielfalt der brasilianischen Pflanzen- und Tierwelt sowie über das Leben der einheimischen Bevölkerung nach Deutschland. Es war eine Reise voller Entdeckungen, Abenteuer und Entbehrungen... und ihre Ergebnisse zählen bis heute zu den mit am besten dokumentierten Exponatensammlungen mit Bezug zur brasilianischen Flora und Fauna.</p>
+                                <p>200 Jahre später gibt es noch immer vieles über Brasilien zu entdecken. Seine Weite, seine Vielfalt, seine Kulturalität, sein Volk. Heutzutage sind es kleine Expe- ditionen aus Brasilien, die nach Europa kommen um einen kleinen Auszug dieses Unbekannten vorzustellen - Expedition mit Namen wie: „Os Buriti“ oder „Cuidado Que Mancha“. Wissenschaftliche Expeditionen wie z.B. der „Brasilienkontext“ an der Universität Regensburg oder die Ausstellung im Botanischen Garten in Erlangen. Oder musikalische Expeditionen mit den Mitgliedern des Konservatoriums São João del Rei; oder literarische Expeditionen wie die Ausstellung INNOVATION in Liechtenstein in der Casa Brasil.</p>
+                                <p><strong>Jornal GIRABRASIL</strong> begleitet und unterstützt solche Initiativen, die ein anderes, ein unbekanntes Brasilien zeigen. Begleiten Sie uns und werden auch Sie ein Teil dieser aufregenden Reisen!</p>
                                 <span><i>Britta Mönch-Pingel</i></span>
                                 <span>Editora</span>
                             </div>
@@ -291,13 +269,13 @@ Botão padrão
                         <div class="col-md-12 img-artigos">
                             <div class="row title-line">
                                 <h3 class="col-md-12">
-                                    <span><strong>Editora GIRABRASIL</strong></span>
+                                    <span><strong>Verlag GIRABRASIL</strong></span>
                                 </h3>
                             </div>
                             <div class="row">
                                 <div class="col-md-12 text-center">
                                     <img src="../img/jornal-online/livros-editora.png" class="img-responsive" style="margin-left: 10%" width="80%" height="80%" alt="..."/>
-                                    <p>Criada inicialmente em 2014 como plataforma de divulgação da cultura brasileira, além das atividades empresariais de brasileiros que vivem e agem na Alemanha, o que outrora se restringia ao <strong>Jornal Intercultural GIRABRASIL</strong> passa a ser em 2016, com muito sucesso, a <strong>Editora GIRABRASIL</strong>. No espaço onde empresas de pequeno e médio portes, artistas, artesãos, músicos etc,...</p> 
+                                    <p>2014 gegründet und ursprünglich als reine Publikationsplattform für brasilianische Kunst & Kultur sowie in Deutschland lebende und arbeitende brasilianische Dienstleister gedacht wurde 2016 aus dem <a href="girabrasil-de.html">interkulturellen Journal GIRABRASIL</a> der <a href="index.html">Verlag GIRABRASIL</a>.</p>
 
                                     <span>Jamile do Carmo</span>
                                 </div>
@@ -306,7 +284,7 @@ Botão padrão
                                 <div class="col-md-10"></div>
                                 <div class="col-md-2">
                                     <!-- Botão padrão -->
-                                    <button type="button" class="btn btn-default btn-xs"><a href="jornal-online-1-2017/artigo-editora.html">Leia mais</a></button>
+                                    <button type="button" class="btn btn-default btn-xs"><a href="journal-online-2017-1/online-verlag.html">Leia mais</a></button>
                                 </div>
                             </div>
                         </div>
@@ -332,30 +310,6 @@ Botão padrão
                             <div class="col-md-2">
                                 <!-- Botão padrão -->
                                 <button type="button" class="btn btn-default btn-xs"><a href="jornal-online-1-2017/artigo-os-buriti.html">Leia mais</a></button>
-                            </div>
-                        </div>
-                    </div><!--fim da col-md-12-->
-                </div><!--fim da row-->
-
-                <div class="row">
-                    <div class="col-md-12 img-artigos">
-                        <div class="row title-line">
-                            <h3 class="col-md-12">
-                                <span>CUIDADO QUE MANCHA</span>
-                            </h3>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-12">
-                                <img src="../img/jornal-online/cuidado-que-mancha.png" class="img-responsive" alt="..."/>
-                                <p>O grupo Cuidado Que Mancha, Porto Alegre, RS, Brasil, completa 22 anos em 2017. Um grupo autoral. </p>
-                                <p>Teremos a felicidade de fazer uma mini-turnê pela Europa no mês de maio.</p>
-                            </div>
-                        </div>
-                        <div class="row">
-                            <div class="col-md-10"></div>
-                            <div class="col-md-2">
-                                <!-- Botão padrão -->
-                                <button type="button" class="btn btn-default btn-xs"><a href="jornal-online-1-2017/artigo-cuidado-que-mancha.html">Leia mais</a></button>
                             </div>
                         </div>
                     </div><!--fim da col-md-12-->
@@ -410,29 +364,6 @@ Botão padrão
                     </div><!--fim da col-md-12-->
                 </div><!--fim da row-->
 
-                <div class="row">
-                    <div class="col-md-12 img-artigos">
-                        <div class="row title-line">
-                            <h3 class="col-md-12">
-                                <span><strong>HOMOLOGAÇÃO DE SENTENÇAS ESTRANGEIRAS</strong></span>
-                            </h3>
-                        </div>
-                        <div class="row" style="margin-top: 5%">
-                            <div class="col-md-12">
-                                <p><b> Sentenças estrangeiras de divórcio consensual já podem ser averbadas diretamente em cartório de Registro Civil das Pessoas Naturais, sem a necessidade de homologação judicial do Superior Tribunal de Justiça (STJ). A nova regra está no Provi- mento n. 53, de 16 de maio de 2016, editado pela corregedora nacional de Justiça, ministra Nancy Andrighi.</b></p> 
-
-                                <p>Com a decisão, a Corregedoria do Conselho Nacional de Justiça (CNJ) regulamenta a averbação direta de sentença estrangeira de divórcio, atendendo à nova redação do artigo 961, parágrafo 5o, do novo Código de Processo Civil: “a sentença estrangeira de divórcio consensual produz efeitos no Brasil, independentemente de homo- logação pelo Superior Tribunal de Justiça (STJ)”.</p>
-                            </div>
-                        </div>
-
-                        <div class="row">
-                            <div class="col-md-10"></div>
-                            <div class="col-md-2">
-                                <!-- Botão padrão -->
-                                <button type="button" class="btn btn-default btn-xs"><a href="jornal-online-1-2017/homologacao-sentenca.html">Leia mais</a></button>
-                            </div>
-                        </div>
-
                         <div class="row">
                             <div class="col-md-12 img-artigos">
                                 <div class="row title-line">
@@ -445,29 +376,9 @@ Botão padrão
                                         <img src="../img/jornal-online/creditos.png" class="img-responsive"  alt="..."/>
                                     </div>
                                 </div>
-                            </div>
-                        </div>
+                          
                     </div><!--fim da col-md-12-->
                 </div><!--fim da row-->
-
-                <div class="row">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-4">
-                        <!-- Botão padrão -->
-                        <button type="button" style="margin:25%" class="btn btn-default btn-lg"><a target="_blank"  href="../pdf/girabrasil-sommer-17-web.pdf">Clique aqui para vizualização do GUIA GIRABRASIL completo</a></button>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-12 img-artigos">
-                        <div class="row title-line">
-                            <h3 class="col-md-12">
-                                <!--                                        <span></span>-->
-                            </h3>
-                        </div>
-                    </div>
-                </div>
-
             </div>  <!--fim da col-md-8-->
 
             <div class="col-md-4 anuncios">
@@ -599,42 +510,7 @@ Botão padrão
                             <img src="../img/apoiadores/anuncio-latizon-tv.png" style="padding:0" class="img-responsive" width="90%" height="90%" alt="latizon-tv"/></a>
                     </div>
                 </div><!--fim da row-->
-                <div class="row">     
-                    <div class="col-md-12">
-                        <a target="_blank" href="http://www.chorinho.de/">
-                            <img src="../img/apoiadores/anuncio-chorinho.png" class="img-responsive" width="90%" height="90%" alt="chorinho"/></a>
-                    </div>
-                </div><!--fim da row-->
-                <div class="row">     
-                    <div class="col-md-12">
-                        <a target="_blank" href="http://unigranet-alemanha.blogspot.de/">
-                            <img src="../img/apoiadores/anuncio-unigran.jpg" class="img-responsive" width="90%" height="90%" alt="unigran"/></a>
-                    </div>
-                </div><!--fim da row-->
-                <div class="row">     
-                    <div class="col-md-12">
-                        <a target="_blank" href="http://www.portuguesenow.net/pt-br/">
-                            <img src="../img/apoiadores/anuncio-portuguese-now.png" class="img-responsive" width="90%" height="90%" alt="portuguese-now"/></a>
-                    </div>
-                </div><!--fim da row-->
-                <div class="row">     
-                    <div class="col-md-12">
-                        <a target="_blank" href="https://www.facebook.com/brasileirossemfronteiras/?fref=ts">
-                            <img src="../img/apoiadores/anuncio-bsf.jpg" style="padding:0" class="img-responsive" width="90%" height="90%" alt="brasil sem fronteiras"/></a>
-                    </div>
-                </div><!--fim da row--> 
-                <div class="row">     
-                    <div class="col-md-12">
-                        <a target="_blank" href="http://www.terra-brasil.de/">
-                            <img src="../img/apoiadores/anuncio-terra-brasil.png" class="img-responsive" width="90%" height="90%" alt="terra brasil"/></a>
-                    </div>
-                </div><!--fim da row-->
-                <div class="row">     
-                    <div class="col-md-12">
-                        <a target="_blank" href="http://www.brazilconnections.net/">
-                            <img src="../img/apoiadores/anuncio-brasil-conection.jpg" class="img-responsive" width="90%" height="90%" alt="brasil-conection"/></a>
-                    </div>    
-                </div><!--fim da row-->
+               
             </div><!--fim da col-md-4-->
         </div> <!--fim do container-->
 
@@ -642,7 +518,7 @@ Botão padrão
             <div class="row midea-folder">
                 <div class="col-md-12">
                     <a href="media-folder.html"><img src="../img/media-folder-min.png" class="img-responsive" alt="" width="15%;" height="15%;"></a>
-                    <p class="text-center">Saiba com anunciar no GUIA INTERCULTURAL e girar o mundo.</p>
+                    <p class="text-center">Schalten Sie Ihre Anzeige!</p>
                 </div>
             </div>
         </div><!--fim do container GIRABRASIL-->
