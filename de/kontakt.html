@@ -155,158 +155,192 @@
             </div>
         </header>
 
-        <div class="container-fluid">
-            <div class="col-md-8 section-index">
-
+        <section id="contato">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-12">
                         <div class="row title-line">
                             <h3 class="col-md-12">
-                                <span>Verlag GIRABRASIL</span>
+                                <span>Contato</span>
                             </h3>
                         </div>
                     </div>
                 </div>
 
                 <div class="row">
-                    <div class="col-md-12 text-center" style="margin-top:8%">
-                        <p>2014 gegründet und ursprünglich als reine Publikationsplattform für brasilianische Kunst & Kultur sowie in Deutschland lebende und arbeitende brasilianische Dienstleister gedacht wurde 2016 aus dem <a href="girabrasil-de.html">interkulturellen Journal GIRABRASIL</a> der <a href="index.html">Verlag GIRABRASIL</a>.</p>
+                    <div class="col-md-2"></div>
+                    <div class="col-md-8">
+                        <!--formulário de contato-->
+                        <form method="POST" action="../mailer.php">
+                            <div class="form-group row form-contato">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-8 text-center">
+                                    <input type="text" class="form-control" id="name" name="name" placeholder="Seu nome"/>
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-8 text-center">
+                                    <input type="email" class="form-control" id="email" name="email" placeholder="Seu E-mail"/>
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-8 text-center">
+                                    <input class="form-control" type="tel" placeholder="Seu Telefone" id="phone" name="phone"/>
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
 
-                        <p>Im selben Raum in dem bislang klein- und mittelständische Dienstleister, Künstler, Musiker und andere Handwerker sich und ihre Arbeiten mit allen Facetten der brasilianischen Vielfältigkeit präsentieren konnten  haben nun auch in- und außerhalb Deutschlands lebende brasilianische Autoren und Autorinnen die Möglichkeit, ihre Werke zu veröffentlichen und dabei auf die allseits bekannten Qualitäten des <a href="index.html">GIRABRASIL</a>, nämlich Fachkompetenz und  höchste Qualität, zurückzugreifen. Das Angebot richtet sich dabei nicht nur an brasilianische Autoren und Autorinnen sondern auch an  alle anderen Schriftsteller, die ihre Texte auf Deutsch und / oder Portugiesisch verfassen. </p> 
-                        <p>Durch diese Neuorientierung erfuhr die bestehende Plattform eine signifikante Erweiterung um einen weiteren wichtigen Baustein, nämlich den der Darstellung brasilianischer Literatur ausserhalb ihrer eigenen Grenzen sowie der Möglichkeit, das Land Brasilien in all seiner Tiefe, Pluralität und Identitätsbandbreite darzustellen und sich so den (leider immer noch weit verbreiteten) stereotypen und stark vereinfachenden Darstellungen der Kulturindustrie entgegenzustellen. </p>
-                        <p class="text-center">Eine kulturelle Verpflichtung also? Zweifellos.</p>
+                            <div class="form-group row">
+                                <div class="col-md-4"></div>
+                                <div class="col-md-6">
+                                    <div class="col-md-2">
+                                        <select class="custom-select" id="service" name="service">
+                                            <option selected>Como podemos te ajudar</option>
+                                             <option value="Futebol em Sandhausen!">Futebol em Sandhausen! </option>
+                                            <option value="Compra de Livros">Encomenda de Livros GIRABRASIL</option>
+                                            <option value="Compra de Livros">Encomenda de Livros Parceiros</option>
+                                            <option value="Publicação de Livros">Publicação de Livros</option>
+                                            <option value="Publicações no Jornal GIRABRASIL">Publicações no Jornal GIRABRASIL</option>
+                                            <option value="Feiras">Feiras</option>
+                                            <option value="Eventos Literários">Eventos Literários</option>
+                                            <option value="Clube GIRABRASIL">Clube GIRABRASIL</option>
+                                            <option value="Media Folder">Media Folder</option>
+                                            <option value="Material sobre acordo bilateral de previdência">Material sobre acordo bilateral de previdência</option>
+                                        </select>
+                                    </div>
+                                    <div class="col-md-7"></div>
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
 
-                        <p>Und die kompetente Geschäftsführung des Verlags, repräsentiert durch die Lehrerin und Geschäftsfrau  Britta Mönch-Pingel macht dabei den ganzen Unterschied. Zur Erreichung seines primären Zieles, nämlich der Veröffentlichung und Vermarktung qualitativ hochwertiger Werke mittels Präsentation in brasilianischen Büchereien in Deutschland sowie bei Kulturevents und in den Medien verfügt der Verlag in all seinen Arbeitsbereichen (Revision, Übersetzung, Illustration, Grafik & Design) über ein hervorragendes, fachlich kompetentes Team welches den Autoren jede nur erdenkliche Unterstützung bietet.</p>
-                        <p>Der <a href="index.html">Verlag GIRABRASIL</a> ist somit der jüngste Partner Brasiliens und all derjenigen, die sich im Rahmen dieses kühnen literarischen Unterfangens auf dem deutschen Markt für die Kultur Brasiliens interessieren.</p>
+                            <div class="form-group row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-8">
+                                    <textarea class="form-control" type="text" placeholder="Deixe sua mensagem" id="message" name="message" rows="5"></textarea>
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+                            <div class="form-group row">
+                                <div class="col-md-12 text-center">
+                                    <button type="submit" name="submit" class="btn btn-default btn-formulario">Enviar</button>
+                                </div>
+                            </div>
+                        </form>
+                        <!--formulário de contato-->
                     </div>
-                </div><!--fim da row-->
+                    <div class="col-md-2"></div>
+                </div>
 
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="row title-line">
-                            <h3 class="col-md-12">
-                                <span>Unser Team</span>
-                            </h3>
-                        </div> 
-                    </div>
-                </div><!--fim da row-->
-
-                <div class="row">
-
-                    <div class="col-md-5 equipe">
-                        <h4 class="text-center" style="color:#0e700e">Edition und Übersetzung</h4>
-                        <img class="img-responsive"   src="../img/colaboradores/britta.jpg" width="100%" height="100%"/>
-                        <a target="_blank" href="https://www.facebook.com/britta.moenchpingel"> <p style="margin-left:32%">Britta Mönch-Pingel</p></a>       
-                    </div>
-
-                    <div class="col-md-1"></div>
-
-                    <div class="col-md-5 equipe">
-                        <h4 class="text-center" style="color:#0e700e">Revision, Illustration und Lektorin</h4>
-                        <img class="img-responsive"  src="../img/autores/autora-jamile.jpg" width="88%" height="88%"/>
-                        <a target="_blank" href="http://www.jarte.de/portugues.htm"> <p style="margin-left:30%">Jamile do Carmo</p></a>       
-                    </div>
-
-                </div><!--fim da row-->
-
-                <div class="row">
-
-                    <div class="col-md-5 equipe">
-                        <h4 class="text-center" style="color:#0e700e">Textgestaltung und Layout</h4>
-                        <img class="img-responsive"   src="../img/colaboradores/alexander.jpg" width="100%" height="100%"/>
-                        <a target="_blank" href="http://www.schraepler.com/start.html"> <p style="margin-left:5%">Alexander Schräpler - Schräpler Communication</p></a>       
-                    </div>
-
-                    <div class="col-md-1"></div>
-
-                    <div class="col-md-5 equipe">
-                        <h4 class="text-center" style="color:#0e700e">Webdesignerin</h4>
-                        <img class="img-responsive"  src="../img/colaboradores/sinara.JPG" width="95%" height="95%"/>
-                        <a target="_blank" href="http://www.sinaracastellem.com/"> <p style="margin-left:36%">Sinara Castellem</p></a>       
-                    </div>
-                </div><!--fim da row-->   
-
-                <div class="row">
-
-                    <div class="col-md-5 equipe">
-                        <h4 class="text-center" style="color:#0e700e">Revision und Lektorin</h4>
-                        <img class="img-responsive"   src="../img/colaboradores/denise.jpg" width="100%" height="100%"/>
-                        <a target="_blank" href="https://www.obeabadaescrita.com/"> <p style="margin-left:35%">Denise Castro</p></a>       
-                    </div>
-
-                    <div class="col-md-1"></div>
-
-                </div><!--fim da row-->   
-
-            </div>  <!--fim da col-md-8-->
-
-            <div class="col-md-4 anuncios">
-                <div class="row"> 
-                    <div class="col-md-12" style="margin-top:10%">
-                        <a target="_blank" href="https://www.facebook.com/deliciosoerlangen/">
-                            <img src="../img/apoiadores/anuncio-delicioso-400x200.png" class="img-responsive" width="90%" height="90%" alt="restaurante delicioso"/></a>
-                    </div>
-                </div><!--fim da row-->
-                <div class="row"> 
-                    <div class="col-md-12">
-                        <a target="_blank" href="https://www.meinweinreich.de/">
-                            <img src="../img/apoiadores/anuncio-weinreich.png" class="img-responsive" width="90%" height="90%" alt="weinreich"/></a>
-                    </div>
-                </div><!--fim da row-->
-                <div class="row"> 
-                    <div class="col-md-12">
-                        <a target="_blank" href="http://www.latizon.de/">
-                            <img src="../img/apoiadores/anuncio-latizon-tv.png" style="padding:0" class="img-responsive" width="90%" height="90%" alt="latizon-tv"/></a>
-                    </div>
-                </div><!--fim da row-->
-                <div class="row">     
-                    <div class="col-md-12">
-                        <a target="_blank" href="http://www.chorinho.de/">
-                            <img src="../img/apoiadores/anuncio-chorinho.png" class="img-responsive" width="90%" height="90%" alt="chorinho"/></a>
-                    </div>
-                </div><!--fim da row-->
-                <div class="row">     
-                    <div class="col-md-12">
-                        <a target="_blank" href="http://unigranet-alemanha.blogspot.de/">
-                            <img src="../img/apoiadores/anuncio-unigran.jpg" class="img-responsive" width="90%" height="90%" alt="unigran"/></a>
-                    </div>
-                </div><!--fim da row-->
-                <div class="row">     
-                    <div class="col-md-12">
-                        <a target="_blank" href="http://www.portuguesenow.net/pt-br/">
-                            <img src="../img/apoiadores/anuncio-portuguese-now.png" class="img-responsive" width="90%" height="90%" alt="portuguese-now"/></a>
-                    </div>
-                </div><!--fim da row-->
-                <div class="row">     
-                    <div class="col-md-12">
-                        <a target="_blank" href="https://www.facebook.com/brasileirossemfronteiras/?fref=ts">
-                            <img src="../img/apoiadores/anuncio-bsf.jpg" style="padding:0" class="img-responsive" width="90%" height="90%" alt="brasil sem fronteiras"/></a>
-                    </div>
-                </div><!--fim da row--> 
-                <div class="row">     
-                    <div class="col-md-12">
-                        <a target="_blank" href="http://www.terra-brasil.de/">
-                            <img src="../img/apoiadores/anuncio-terra-brasil.png" class="img-responsive" width="90%" height="90%" alt="terra brasil"/></a>
-                    </div>
-                </div><!--fim da row-->
-                <div class="row">     
-                    <div class="col-md-12">
-                        <a target="_blank" href="http://www.brazilconnections.net/">
-                            <img src="../img/apoiadores/anuncio-brasil-conection.jpg" class="img-responsive" width="90%" height="90%" alt="brasil-conection"/></a>
-                    </div>    
-                </div><!--fim da row-->
-            </div><!--fim da col-md-4-->
-        </div> <!--fim do container-->
+            </div> <!--fim do container-->
+        </section>
 
         <div class="container-fluid girabrasil">
             <div class="row midea-folder">
                 <div class="col-md-12">
                     <a href="media-folder.html"><img src="../img/media-folder-min.png" class="img-responsive" alt="" width="15%;" height="15%;"></a>
-                    <p class="text-center">Schalten Sie Ihre Anzeige!</p>
+                    <p class="text-center">Saiba com anunciar no GUIA INTERCULTURAL e girar o mundo.</p>
                 </div>
             </div>
         </div><!--fim do container GIRABRASIL-->
 
+         <div class="container-fluid hidden-xs">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="row title-line">
+                        <h3 class="col-md-12">
+                            <span>Nossos Livros</span>
+                        </h3>
+                    </div>
+
+                    <div class="carousel slide multi-item-carousel slide-livro" id="theCarousel">
+                        <div class="carousel-inner">
+                            <div class="item active">
+                                <div class="col-xs-3"><a href="landpage-livro/livro-historia-sombria.html"><img src="../img/livros/historias-sombrias-cover.jpg" class="img-responsive borda-livro" width="70%" height="70%"></a>
+                                </div>
+                            </div>
+
+                            <div class="item">
+                                <div class="col-xs-3">
+                                    <a href="landpage-livro/livro-julia.html">
+                                        <img src="../img/livros/Julia-consignado.jpg" style="margin:30% 0"  class="img-responsive borda-livro" width="70%" height="70%">
+                                    </a> 
+                                   <div class="carousel-caption">
+                                        <button type="button"  class="btn btn-default btn-md" style="margin-left:10%; margin-bottom:8%; background:yellow; border-radius: 10%; color:#0e700e" >Consignado</button> 
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="item">
+                                <div class="col-xs-3"><a href="landpage-livro/livro-a-bagagem.html"><img src="../img/livros/a-bagagem-sf.jpg" style="margin:15% 0"  class="img-responsive borda-livro" width="70%" height="70%"></a> 
+                                </div>
+                            </div>
+                            
+                            <div class="item">
+                                <div class="col-xs-3">
+                                    <a href="landpage-livro/livro-desvendando-brasil.html">
+                                        <img src="../img/livros/desvendando-brasil.jpg" style="margin:0% 0"  class="img-responsive borda-livro" width="68%" height="68%">
+                                    </a> 
+                                   <div class="carousel-caption">
+                                        <button type="button"  class="btn btn-default btn-md" style="margin-left:6%; margin-bottom:-60%; background:yellow; border-radius: 10%; color:#0e700e" >Consignado</button> 
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <a class="left carousel-control" href="#theCarousel" data-slide="prev"><i class="glyphicon glyphicon-chevron-left"></i></a>
+                    <a class="right carousel-control" href="#theCarousel" data-slide="next"><i class="glyphicon glyphicon-chevron-right"></i></a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container-fluid mapa-site hidden-xs">
+            <div class="row">
+                <div class="col-md-12">
+                    <hr>
+                </div>
+            </div>
+
+            <div class="row mapa-site">
+                <div class="col-md-2"></div>
+                <div class="col-md-2">
+                    <h4 style="color:#0e700e;">Editora</h4>
+                    <a href="editora.html">Sobre nós</a><br>
+                    <a href="livros.html">Livros</a><br>
+                    <a href="autores.html">Autores</a><br>
+                    <a href="servicos.html">Serviços</a><br>
+                    <a href="publicar.html">Para publicar</a><br>
+                    <a href="parceiros.html">Parceiros</a>
+                </div>
+                <div class="col-md-2">
+                    <h4 style="color:#0e700e;">Jornal</h4>
+                    <a href="girabrasil.html">Jornal on-line</a><br>
+                    <a href="giramundo.html">Mascote</a><br>
+                    <a href="autores.html">Autores</a><br>
+                    <a href="media-folder.html">Media Folder</a>
+                </div>
+                <div class="col-md-2">
+                    <h4 style="color:#0e700e;">Eventos</h4>
+                    <a href="clube.html">Clube GIRABRASIL</a><br>
+                    <a href="eventos.html">Eventos</a><br>
+                    <a href="feiras.html">Feiras</a><br>
+                    <a href="eventos-apoiados.html">Eventos apoiados GIRABRASIL</a><br>
+                    <a href="apoiadores.html">Apoiadores</a>
+                </div>
+                <div class="col-md-2">
+                    <h4><a href="contato.html">Contato</a></h4>
+                    <h4><a href="impressum.html">Impressum</a></h4>
+
+                </div>
+                <div class="col-md-2"></div>
+            </div>
+
+        </div>
 
 
         <footer class="container-fluid">
