@@ -46,7 +46,7 @@ livro musical inclui CD;
 Marcelo Schmidt; 2017, 
 sem ISBN, 
 preço 10,- EUR
- pág: 18
+pág: 18
 Edição própria
 
 Livro: Temos que encontrar Froggy; 
@@ -78,58 +78,60 @@ Self-Publishing
 Gemischte Technik: Aquarell und Tusche, Größe A5
 
 <div class="row">
-                    <div class="col-md-2"></div>
-                    <div class="col-md-4" style="margin-left:5%">
-                        <!-- Botão padrão -->
-                        <button type="button" style="margin-left:60%; margin-top: 10%" class="btn btn-default btn-lg"><a target="_blank"  href="https://www.facebook.com/GUIA.GIRABRASIL/">Unser <i class="fa fa-facebook fa-2x"></i>acebook</a></button>
-                    </div>
-                </div>
+<div class="col-md-2"></div>
+<div class="col-md-4" style="margin-left:5%">
+<!-- Botão padrão -->
+<button type="button" style="margin-left:60%; margin-top: 10%" class="btn btn-default btn-lg"><a target="_blank"  href="https://www.facebook.com/GUIA.GIRABRASIL/">Unser <i class="fa fa-facebook fa-2x"></i>acebook</a></button>
+</div>
+</div>
 
-                <div class="row">  
-                    <div class="col-md-1" style="margin-left:44%; margin-top: 4%">
-                        <button type="button" class="btn btn-default btn-xs" ><a href="../bucherei.html#kinderbucher">Online Bücherei</a></button> 
-                    </div>
-                </div>
+<div class="row">  
+<div class="col-md-1" style="margin-left:44%; margin-top: 4%">
+<button type="button" class="btn btn-default btn-xs" ><a href="../bucherei.html#kinderbucher">Online Bücherei</a></button> 
+</div>
+</div>
 
 
 
 Schalten Sie Ihre Anzeige!
-  
-                <div class="container-fluid hidden-xs">
-            <div class="row">
 
-                <div class="col-md-4 estante-livros">
-                    <a href="../landpage-livro/livro-historia-sombria.html">
-                        <img class="img-responsive img-border borda-livro" style="margin-left:30%" src="../../img/livros/historias-sombrias-cover.jpg" width="40%" height="40%"/>
-                        <h5><strong>Histórias sombrias da realidade</strong></h5></a>
-                </div>
+<div class="container-fluid hidden-xs">
+<div class="row">
 
-                <div class="col-md-4 estante-livros">
-                    <a href="../landpage-livro/choque-cultural.html">
-                        <img class="img-responsive img-border borda-livro" style="margin-left:30%; margin-top:16%" src="../../img/livros/choque-cultural.png" width="40%" height="40%"/>
-                        <h5><strong>Choque Cultural: Brasil x Alemanha</strong></h5></a>
-                </div>
+<div class="col-md-4 estante-livros">
+<a href="../landpage-livro/livro-historia-sombria.html">
+<img class="img-responsive img-border borda-livro" style="margin-left:30%" src="../../img/livros/historias-sombrias-cover.jpg" width="40%" height="40%"/>
+<h5><strong>Histórias sombrias da realidade</strong></h5></a>
+</div>
 
-                <div class="col-md-4 estante-livros">
-                    <a href="../landpage-livro/jabuti-e-a-tartaruga.html">
-                        <img class="img-responsive img-border borda-livro" style="margin-left:25%; margin-top:28%" src="../../img/livros/jabuti-e-tartaruga.jpg" width="50%" height="50%"/>
-                        <h5><strong>Jabuti e  Tartaruga</strong></h5></a>
-                </div>   
-            </div>
-        </div>
+<div class="col-md-4 estante-livros">
+<a href="../landpage-livro/choque-cultural.html">
+<img class="img-responsive img-border borda-livro" style="margin-left:30%; margin-top:16%" src="../../img/livros/choque-cultural.png" width="40%" height="40%"/>
+<h5><strong>Choque Cultural: Brasil x Alemanha</strong></h5></a>
+</div>
+
+<div class="col-md-4 estante-livros">
+<a href="../landpage-livro/jabuti-e-a-tartaruga.html">
+<img class="img-responsive img-border borda-livro" style="margin-left:25%; margin-top:28%" src="../../img/livros/jabuti-e-tartaruga.jpg" width="50%" height="50%"/>
+<h5><strong>Jabuti e  Tartaruga</strong></h5></a>
+</div>   
+</div>
+</div>
 
 
- <a href="../index.html#page-top">
- 
- <div class="row">
-                                <div class="col=md-12">
-                                    <div class="row title-line" style="margin: 0 3%">
-                                        <h3 class="col-md-12">   
-                                        </h3>
-                                    </div>
-                                </div>
-                            </div>
+<a href="../index.html#page-top">
+
+<div class="row">
+<div class="col=md-12">
+<div class="row title-line" style="margin: 0 3%">
+<h3 class="col-md-12">   
+</h3>
+</div>
+</div>
+</div>
 
 
 o SEPOLH nos eventos
 coloque: exposicao dos livros A BAGAGEM e Histórias... das autoras Jamile e Lucenia dentro do estande conjunta da MVB - livro Titel aus Klein- und Selbstverlagen Stand Halle 3.1 H65
+
+
