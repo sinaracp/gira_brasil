@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="de">
 
     <head>
         <meta charset="utf-8">
@@ -23,6 +23,8 @@
         <!-- Theme CSS -->
         <link href="../../css/style.css" rel="stylesheet">
         <link href="../../css/carousel.css" rel="stylesheet">
+        <link href="../../vendor/slick-1.6.0/slick/slick.css" rel="stylesheet">
+        <link href="../../vendor/slick-1.6.0/slick/slick-theme.css" rel="stylesheet">
 
     </head>
 
@@ -45,67 +47,42 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav my-navbar">
-                        <li><a href="../index-carousel.html#page-top">Home</a></li>
-                        <li><a href="../editora.html">Editora</a></li>
-                        <li><a href="../girabrasil.html">Jornal Online</a></li>
-                        <li><a href="../contato.html">Contato</a></li>
+                        <li><a href="../index.html#page-top">Home</a></li>
+                        <li><a href="../verlag.html">Verlag</a></li>
+                        <li><a href="../girabrasil-de.html">Online Journal</a></li>
+                        <li><a href="../kontakt.html">Kontakt</a></li>
                         <li><a href="../impressum.html">Impressum</a></li>       
                     </ul>
                     <ul class="nav navbar-nav navbar-right my-navbar">
                         <li><a class="navbar-brand" target="_blank" href="https://www.facebook.com/GUIA.GIRABRASIL/">
                             <i class="fa fa-facebook fa-1x"></i></a></li>
+                        <li><a class="navbar-brand" target="_blank" href="https://www.instagram.com/?hl=pt">
+                            <i class="fa fa-instagram fa-1x"></i></a></li>
                         <li><a class="navbar-brand" target="_blank" href="https://www.linkedin.com/pulse/girabrasil-guia-intercultural-do-brasil-na-alemanha-m%C3%B6nch-pingel">
                             <i class="fa fa-linkedin fa-1x"></i></a></li>
                         <li>
-                            <a class="page-scroll" data-toggle="modal" data-target= "#deutsch"><img src="../../img/001-germany.png"/></a></li>
+                            <a class="navbar-brand"  href="../../pt-br/index.html"><img src="../../img/002-brazil.png"/></a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
         </nav>
-
         <!-- fim navbar new -->
-
         <header>
-            <!--        início do modal versão em alemão  -->
-
-            <div class="modal fade" id="deutsch" tabindex="-1" role="dialog">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-body text-center">
-
-                            <img class="img-responsive" style="margin-left:25%" src="../../img/giramundo.png" width="50%" height=50%;/>
-
-
-                            <img class="img-responsive" style="margin-top:5%" src="../../img/girabrasil-footer.png" width="100%" height=100%;/>
-
-                            <h3>INTERKULTURELLES JOURNAL PORTUGISCH UND DEUTSCHLAND</h3>
-
-                            <h2>Bald auch auf Deutsch!</h2>  
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
-                        </div>
-                    </div><!-- /.modal-content -->
-                </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-
-            <!--        fim do modal versão em alemão -->
-
 
             <div class="container index">
                 <div class="row">
                     <!--inicio col-mobile-->
                     <div class="col-xs-8 col-md-4 img-logo">
-                        <img class="img-responsive" style="margin-left:50%" src="../../img/giramundo.png" width="80%" height=80%;/>
+                        <img class="img-responsive" style="margin-left:25%" src="../../img/giramundo.png" width="100%" height=100%;/>
                     </div>
                     <!--inicio col-mobile-->
 
                     <div class="col-md-6 img-girabrasil">
-                        <img class="img-responsive" style="margin-top:10%" src="../../img/girabrasil-footer.png" width="80%" height=80%;/>
+                        <img class="img-responsive" style="margin-top:16%" src="../../img/girabrasil-footer.png" width="100%" height=100%;/>
                     </div>
                     <div class="col-md-2"></div>
                     <div class="col-md-12">
-                        <h3>GUIA INTERCULTURAL E EDITORA DE LIVROS BRASILEIROS NA ALEMANHA</h3>
+                        <h3 style="text-transform: uppercase">Interkulturelles Journal und Verlag für brasilianische Bücher in Deutschland</h3>
                     </div>
                 </div>
             </div>
@@ -123,53 +100,50 @@
                 <div class="container-fluid">
 
                     <!-- Brand and toggle get grouped for better mobile display -->
-                    <div class="navbar-header">
-                        <a class="navbar-brand" href="../livros.html">Livros</a>
+                    <div class="navbar-header dropdown">
+                        <a class="navbar-brand dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="padding-left:0" href="../bucherei.html">Online Bücherei</a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../bucherei.html#bucher-gira">Bücher GIRABRASIL</a></li>
+                            <li><a href="../bucherei.html#bucher-partner">Bücher Partner</a></li>
+                            <li><a href="../bucherei.html#kinderbucher">Kinderbücher Partner</a></li>
+                            <li><a href="../illustrationen.html">Illustrationen</a></li>
+                        </ul>
                     </div>
-
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
 
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Editora <span class="caret"></span></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Verlag <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="../editora.html">Sobre nós</a></li>
-                                    <li><a href="../autores.html">Autores</a></li>
-                                    <li><a href="../servicos.html">Serviços</a></li>
-                                    <li><a href="../publicar.html">Para Publicar</a></li>
-                                    <li><a href="../parceiros.html">Parceiros</a></li>
+                                    <li><a href="../verlag.html">Über uns</a></li>
+                                    <!--                                    <li><a href="autores.html">Autoren</a></li>-->
+                                    <li><a href="../service.html">Service</a></li>
+                                    <li><a href="../veroffentlichen.html">Bücher veröffentlichen</a></li>
+                                    <li><a href="../partner.html">Partner</a></li>
                                 </ul>
                             </li>
 
                             <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Jornal GIRABRASIL<span class="caret"></span></a>
+                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Journal GIRABRASIL<span class="caret"></span></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="../girabrasil.html">Jornal Online</a></li>
-                                    <li><a href="../giramundo.html">Mascote</a></li>
+                                    <li><a href="../girabrasil-de.html">Online Journal</a></li>
+                                    <li><a href="../maskotchen.html">Masköttchen</a></li>
                                     <li><a href="../media-folder.html">Media Folder</a></li>
-                                    <li><a href="../apoiadores.html">Apoiadores</a></li>
+                                    <li><a href="../unterstutzer.html">Ünterstützer</a></li>
                                 </ul>
                             </li>
 
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Eventos<span class="caret"></span></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="../clube.html">Clube GIRABRASIL</a></li>
-                                    <li><a href="../eventos.html">Eventos</a></li>
-                                    <li><a href="../feiras.html">Feiras</a></li>
-                                    <li><a href="../eventos-apoiados.html">Eventos Apoiados GIRABRASIL</a></li>
-                                </ul>
-                            </li>
+                            <li><a href="../kontakt.html">Kontakt</a></li>
 
-                            <li><a href="../contato.html">Contato</a></li>
                             <li><a href="../impressum.html">Impressum</a></li>
 
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
             </nav>
+
 
             <!-- fim navbar mobile -->
             <div class="container-fluid">
@@ -204,20 +178,20 @@
 
                 <div class="row">
                     <div class="col-md-12">
-                        <p class="text-justify">Lucênia de Alcântara Carvalho venceu o concurso literário Assis Brasil em 1993, do departamento de Letras da UFPI, com o conto "A Terceira Venda".</p>
+                        <p class="text-justify">Im Jahr 1993 gewann Lucênia Alcântara Carvalho mit der Erzählung „A Terceira Venda“ den Assis-Brasil- Literaturwettbewerb des Philologischen Departments der Bundesuniversität von Piauí.</p>
 
-                        <p class="text-justify">Atualmente, num impulso criativo, voltou a escrever e a participar de congressos internacionais de literatura, como o Culture e Letterature in Dialogo: Identità in Movimento, no Centro de Estudos Comparados Ítalo-luso-brasileiros da Università degli Studi di Perugia, na Itália e do IV World Conference of Brazilian Writers Abroad e III Seminar on the Literary Expressions of the Brazilian Diaspora, na Friedrich-Alexander-Universität em Erlangen, na Alemanha.</p>
+                        <p class="text-justify">Aus einem kreativen Impuls heraus hat sie wieder zu schreiben begonnen und nimmt an internationalen Literaturkongressen wie etwa Culture e Letterature in Dialogo: Identità in Movimento am Zentrum für Vergleichende Italo-Luso-Brasilianische Studien der Universität Perugia in Italien, IV World Conference of Brazilian Writers Abroad, III Seminar on the Literary Expressions of the Brazilian Diaspora, an der Friedrich- Alexander-Universität in Erlangen teil.</p>
 
-                        <p class="text-justify">É  formada em Direito pela UFPI, pós-graduada na Associação de Ensino Unificado do Distrito Federal e mestre em Direito na Friedrich-Alexander-Universität, em Erlangen, onde trabalhou como docente até o ano de 2012 e onde continua a se profissionalizar em Direito Econômico Alemão. É membro da Câmara dos Advogados da Alemanha, da OAP de Portugal e da OAB do Distrito Federal. </p>
+                        <p class="text-justify">Sie hat in Brasilien Rechtswissenschaft studiert (UFPI) und ist Fachanwältin für Öffentliches Recht (Associação de Ensino Unificado, Bundesdistrikt). Ihren Magister Legum hat sie an der Friedrich-Alexander- Universität in Erlangen erworben, wo sie bis 2012 als Dozentin tätig war und gegenwärtig deutsches Wirtschaftsrecht studiert.</p>
 
-                        <p class="text-justify">Vive e trabalha com advocacia internacional em Nurembergue, o que lhe proporciona, através do contato com diferentes culturas e países, um estímulo essencial à composição de contos policiais.</p>
+                        <p class="text-justify">Sie ist Mitglied der deutschen, portugiesischen und brasilianischen Rechtsanwaltskammer. Sie lebt und arbeitet als international tätige Rechtsanwältin in Nürnberg mit Kontakten zu verschiedenen Kulturen und Ländern, woraus sie die Inspiration für ihre Kriminalgeschichten bezieht.</p>
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col-md-5"></div>
                     <div class="col-md-2">
-                        <button type="button" style="margin-top:30%" class="btn btn-default btn-xs"><a href="../autores.html">Voltar aos Autores</a></button> 
+                        <button type="button" style="margin-top:30%; margin-left:30%" class="btn btn-default btn-xs"><a href="../autoren.html">Autoren</a></button> 
                     </div>
                     <div class="col-md-1"></div>
                 </div>
@@ -226,7 +200,7 @@
                     <div class="col-md-12">
                         <div class="row title-line">
                             <h3 class="col-md-12">
-                                <span>Suas Obras</span>
+                                <span>Ihnen Buch</span>
                             </h3>
                         </div>
                     </div>
@@ -235,14 +209,14 @@
                 <div class="row"  style="margin-top:10%">
                     <div class="col-md-2"></div>
                     <div class="col-md-3" style="margin-left:22%">
-                        <a href="../landpage-livro/livro-historia-sombria.html">
+                        <a href="../bucher/historia-sombria.html">
                             <img class="img-responsive img-border borda-livro" src="../../img/livros/historias-sombrias-cover.jpg" width="100%" height="100%"/></a>
                         <p>Editora GIRABRASIL <br>(24 Mar 2017)</p><br>
                         <span>Português | Alemão</span><br>
                         <span>EUR 16,50</span><br>
                         <span>Disponível em:</span><br>
 
-                        <button type="button" style="margin-top:5%" class="btn btn-default btn-xs"><a target="_blank" href="https://www.amazon.de/dp/398186171X/">amazon.de</a></button> <button type="button" style="margin-top:5%" class="btn btn-default btn-xs"><a href="contato.html">ED GIRABRASIL</a></button>              </div>
+                        <button type="button" style="margin-top:5%" class="btn btn-default btn-xs"><a target="_blank" href="https://www.amazon.de/dp/398186171X/">amazon.de</a></button> <button type="button" style="margin-top:5%" class="btn btn-default btn-xs"><a href="../kontakt.html"> GIRABRASIL</a></button>              </div>
                     <div class="col-md-2"></div>
                 </div>
 
@@ -285,24 +259,14 @@
                             <img src="../../img/apoiadores/anuncio-portuguese-now.png" class="img-responsive" width="90%" height="90%" alt="portuguese-now"/></a>
                     </div>
                 </div><!--fim da row-->
-                <div class="row">     
-                    <div class="col-md-12">
-                        <a target="_blank" href="https://www.facebook.com/brasileirossemfronteiras/?fref=ts">
-                            <img src="../../img/apoiadores/anuncio-bsf.jpg" style="padding:0" class="img-responsive" width="90%" height="90%" alt="brasil sem fronteiras"/></a>
-                    </div>
-                </div><!--fim da row--> 
+                
                 <div class="row">     
                     <div class="col-md-12">
                         <a target="_blank" href="http://www.terra-brasil.de/">
                             <img src="../../img/apoiadores/anuncio-terra-brasil.png" class="img-responsive" width="90%" height="90%" alt="terra brasil"/></a>
                     </div>
                 </div><!--fim da row-->
-                <div class="row">     
-                    <div class="col-md-12">
-                        <a target="_blank" href="http://www.brazilconnections.net/">
-                            <img src="../../img/apoiadores/anuncio-brasil-conection.jpg" class="img-responsive" width="90%" height="90%" alt="brasil-conection"/></a>
-                    </div>    
-                </div><!--fim da row-->
+                
             </div><!--fim da col-md-4-->
         </div> <!--fim do container-->
 
