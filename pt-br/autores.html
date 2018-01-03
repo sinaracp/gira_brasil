@@ -23,6 +23,8 @@
         <!-- Theme CSS -->
         <link href="../css/style.css" rel="stylesheet">
         <link href="../css/carousel.css" rel="stylesheet">
+        <link href="../vendor/slick-1.6.0/slick/slick.css" rel="stylesheet">
+        <link href="../vendor/slick-1.6.0/slick/slick-theme.css" rel="stylesheet">
 
     </head>
 
@@ -48,16 +50,19 @@
                         <li><a href="index-carousel.html#page-top">Home</a></li>
                         <li><a href="editora.html">Editora</a></li>
                         <li><a href="girabrasil.html">Jornal Online</a></li>
+                        <li><a href="eventos.html">Eventos</a></li>
                         <li><a href="contato.html">Contato</a></li>
                         <li><a href="impressum.html">Impressum</a></li>       
                     </ul>
                     <ul class="nav navbar-nav navbar-right my-navbar">
                         <li><a class="navbar-brand" target="_blank" href="https://www.facebook.com/GUIA.GIRABRASIL/">
                             <i class="fa fa-facebook fa-1x"></i></a></li>
+                        <li><a class="navbar-brand" target="_blank" href="https://www.instagram.com/?hl=pt">
+                            <i class="fa fa-instagram fa-1x"></i></a></li>
                         <li><a class="navbar-brand" target="_blank" href="https://www.linkedin.com/pulse/girabrasil-guia-intercultural-do-brasil-na-alemanha-m%C3%B6nch-pingel">
                             <i class="fa fa-linkedin fa-1x"></i></a></li>
                         <li>
-                            <a class="page-scroll" data-toggle="modal" data-target= "#deutsch"><img src="../img/001-germany.png"/></a></li>
+                            <a class="navbar-brand"  href="../de/index.html"><img src="../img/001-germany.png"/></a></li>
                     </ul>
                 </div><!-- /.navbar-collapse -->
             </div><!-- /.container-fluid -->
@@ -66,42 +71,16 @@
         <!-- fim navbar new -->
 
         <header>
-            <!--        início do modal versão em alemão  -->
-
-            <div class="modal fade" id="deutsch" tabindex="-1" role="dialog">
-                <div class="modal-dialog" role="document">
-                    <div class="modal-content">
-                        <div class="modal-body text-center">
-
-                            <img class="img-responsive" style="margin-left:25%" src="../img/giramundo.png" width="50%" height=50%;/>
-
-
-                            <img class="img-responsive" style="margin-top:5%" src="../img/girabrasil-footer.png" width="100%" height=100%;/>
-
-                            <h3>INTERKULTURELLES JOURNAL PORTUGISCH UND DEUTSCHLAND</h3>
-
-                            <h2>Bald auch auf Deutsch!</h2>  
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-default" data-dismiss="modal">Schließen</button>
-                        </div>
-                    </div><!-- /.modal-content -->
-                </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
-
-            <!--        fim do modal versão em alemão -->
-
-
             <div class="container index">
                 <div class="row">
                     <!--inicio col-mobile-->
                     <div class="col-xs-8 col-md-4 img-logo">
-                        <img class="img-responsive" style="margin-left:50%" src="../img/giramundo.png" width="80%" height=80%;/>
+                        <img class="img-responsive" style="margin-left:25%" src="../img/giramundo.png" width="100%" height=100%;/>
                     </div>
                     <!--inicio col-mobile-->
 
                     <div class="col-md-6 img-girabrasil">
-                        <img class="img-responsive" style="margin-top:10%" src="../img/girabrasil-footer.png" width="80%" height=80%;/>
+                        <img class="img-responsive" style="margin-top:16%" src="../img/girabrasil-footer.png" width="100%" height=100%;/>
                     </div>
                     <div class="col-md-2"></div>
                     <div class="col-md-12">
@@ -119,20 +98,19 @@
             </div>
 
             <!-- inicio navbar mobile -->
-            <nav class="navbar navbar-default nav-secundario">
+            <nav class="navbar navbar-default nav-secundario" style="margin-left:-10">
                 <div class="container-fluid">
 
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header dropdown">
-                        <a class="navbar-brand dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="padding-left:0" href="livros.html">Livraria Virtual</a>
+                        <a class="navbar-brand dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" href="livros.html">Livraria Virtual</a>
                         <ul class="dropdown-menu">
                             <li><a href="livros.html#livros-gira">Livros GIRABRASIL</a></li>
                             <li><a href="livros.html#livros-parceiros">Livros Parceiros</a></li>
                             <li><a href="livros.html#livros-parceiros-infantis">Livros Parceiros Infantis</a></li>
-                            <li><a href="livros.html#ilustrações">Ilustrações</a></li>
+                            <li><a href="ilustracoes.html">Ilustrações</a></li>
                         </ul>
                     </div>
-
 
                     <!-- Collect the nav links, forms, and other content for toggling -->
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
@@ -148,6 +126,7 @@
                                     <li><a href="parceiros.html">Parceiros</a></li>
                                 </ul>
                             </li>
+                            <li><a href="texto-vivo.html">Texto Vivo</a></li>
 
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Jornal GIRABRASIL<span class="caret"></span></a>
@@ -166,16 +145,19 @@
                                     <li><a href="eventos.html">Eventos</a></li>
                                     <li><a href="feiras.html">Feiras</a></li>
                                     <li><a href="eventos-apoiados.html">Eventos Apoiados GIRABRASIL</a></li>
+                                    <li><a href="lingua-heranca.html">Português Língua de Herança</a></li>
                                 </ul>
                             </li>
 
                             <li><a href="contato.html">Contato</a></li>
+                            <li><a href="imprenssa.html">Imprensa</a></li>
                             <li><a href="impressum.html">Impressum</a></li>
 
                         </ul>
                     </div><!-- /.navbar-collapse -->
                 </div><!-- /.container-fluid -->
             </nav>
+
 
             <!-- fim navbar mobile -->
             <div class="container-fluid">
@@ -186,6 +168,7 @@
                 </div>
             </div>
         </header>
+        
         <div class="container-fluid">
             <div class="col-md-8">
                 <div class="row">
