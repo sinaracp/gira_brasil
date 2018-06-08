@@ -1,0 +1,606 @@
+/*
+Theme Name: Atelier Viver com Arte
+Theme URI: https://wordpress.org/themes/theme_atelier/
+Author: Sinara Castellem
+Author URI: http://www.sinaracastellem.com/
+Description: Tema desenvolvido para Atelier Viver com Arte em 2017, responsivo para todas as mídeas.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: blog, arte, galeria, turismo, viagem
+Text Domain: ateliervivercomarte
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.css";
+
+html, body {
+
+}
+
+/* header */
+.my-navbar {
+    background-color: #0e700e;
+    color: black;
+    padding: none;   
+}
+.my-navbar > li > a {
+    color:  #fcf8e3 !important;
+}
+.my-navbar > i > a {
+    color:  #fcf8e3 !important;
+}
+@media (max-width: 768px) {
+    .nav-secundario{
+        background: none;
+        border: none;
+        margin-left: 40%;
+        margin-bottom: 0;
+    }
+}
+@media (min-width: 769px) {
+    .nav-secundario{
+        background: none;
+        border: none;
+        margin-left: 14%;
+        margin-bottom: 0;
+    }
+}
+@media (min-width: 1200px) {
+    .nav-secundario{
+        background: none;
+        border: none;
+        margin-left: 27%;
+        margin-bottom: 0;
+    }
+}
+
+.nav-secundario a {
+    color:  #0e700e !important;
+}
+
+.img-logo {
+    padding-top: 7%;
+    padding-left: 7%;
+}
+.img-girabrasil {
+    padding-top: 8%;
+}
+.index h3 {
+    text-align: center;
+    color: #0e700e;
+    font-size: 16px;
+    padding-left: 5%;
+}
+
+hr {
+    padding-top: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    color: #0e700e;
+    background-color: #0e700e;
+    height: 2px;
+}
+
+a {
+    color: #0e700e;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #75af27;
+    text-decoration: none;
+}
+
+.menu li {
+    color: black;
+    padding-left: 30px;
+    text-transform: uppercase;
+}
+
+.drop-menu li {
+    padding-left: 0;
+}    
+.slide-livro {
+    margin-top: 30px;
+    padding-left: 120px;
+    padding-right: 30px;
+}
+
+.title-line h3 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 0.5px solid #0e700e;
+    line-height: 0.1em;
+    margin: 20px 0 0;
+    /*    margin-bottom: 30px;*/
+    padding-top: 3%;
+    color: #0e700e; 
+}
+.title-line h3 span {
+    background: #fff;
+    padding: 0 10px;
+    margin-bottom: 30px;
+    text-transform: uppercase;  
+    color: #0e700e;
+}
+
+.section-index h3 {
+    text-align: center;
+    padding-top: 5%;
+}
+
+.section-index p {
+    text-align: justify;
+}
+.section-index span {
+    padding-bottom: 100px;
+}
+
+.section-index img {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: 1%;
+    margin-right: 3%;
+}
+
+.section-carousel-index {
+    margin-top: 5%;
+}
+
+.section-index-eventos {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 3%;
+
+
+    border-left-width:thick;
+    border-left-color: #75af27;
+    border-left-style: solid;
+
+    box-shadow: 5px 5px 10px #948780;
+    -webkit-box-shadow: 5px 5px 10px #948780;
+    -moz-box-shadow: 5px 5px 10px #948780;
+    margin-bottom: 30px;
+}
+
+.section-index-eventos img {
+    margin-left: 10%;
+}
+
+.section-index-eventos h4 {
+    color: #0e700e;
+}
+
+.lingua-herança {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    text-align: justify;
+}
+
+.lingua-herança h5 {
+    text-transform: uppercase;  
+    color: #0e700e;
+}
+
+.lingua-herança span {
+    text-transform: uppercase;  
+    color: #0e700e;
+    font-size: 16px;
+    
+}
+
+.carousel-inner > .item > img {
+    position-relative;
+    min-width: 100%;
+    height: 520px; /* Altura da imagem dentro do Carousel */
+}
+
+.jornal-capa img {
+    border-radius: 50px;
+}
+
+.jornal-capa h4 {
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.anuncios img {
+    /*
+    padding-top: 6%;   
+    padding-bottom: 6%;
+    */
+    margin-top: 0;
+    margin-left: 10%;
+    /*
+    border-left-width:thick;
+    border-left-color: #75af27;
+    border-left-style: solid;
+    */
+
+    box-shadow: 5px 5px 10px #948780;
+    -webkit-box-shadow: 5px 5px 10px #948780;
+    -moz-box-shadow: 5px 5px 10px #948780;
+    margin-bottom: 30px;
+}
+
+.anuncios title-line {
+    margin-left: 20px; 
+    padding-top: 10%;  
+    padding-right: 50px;
+}
+
+
+.img-left img {
+    float: left;
+    margin: 0  0;
+    padding: 0 20px;
+}
+.img-right img {
+    float: right;
+    margin: 0 0 0;
+    padding: 0 0;
+}
+
+/*apoiadores.html parceiros.html*/
+.apoiadores {
+    margin-top: 10%;
+
+}
+
+.girabrasil {
+    background: #dde884;
+    margin-top: 5%;
+    color: #0e700e;
+}
+.midea-folder img {
+    margin-left: 10%;
+}
+
+.title-giramundo {
+    margin-top: 15px;
+    padding-bottom: 10px;
+}
+.title-girabrasil {
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.clube-girabrasil {
+    margin-bottom: 30px;
+}
+.equipe img{
+    position-relative;
+    width: 140px;
+    height: 180px;  
+
+    margin-left: 30%;
+}
+.equipe {
+    margin-top: 30px;
+    margin-left: 2%;
+    padding: 20px;
+    border-left-width:thick;
+    border-left-color: #75af27;
+    /*
+    border-style: solid;
+    border-color: #75af27;
+    border-top-width: thin;
+    border-bottom-width: thin;
+    border-right-width: thin;
+    */
+
+    box-shadow: 5px 5px 10px #948780;
+    -webkit-box-shadow: 5px 5px 10px #948780;
+    -moz-box-shadow: 5px 5px 10px #948780;
+    margin-bottom: 30px;
+}
+
+footer {
+    background-color: #0e700e;
+    background-size: cover;
+}
+footer p {
+    text-align: center;
+    font-size: 10px;
+    color: #fcf8e3;
+}
+.redes-sociais-footer a {
+    padding-top: 2%;
+    color: #fcf8e3;
+}
+
+.copyright span {
+    color: #fcf8e3;
+}
+.copyright {
+    margin-top: 1%;
+    margin-bottom: 0;
+}
+
+/*girabrasil.html*/
+
+.img-capa img {
+    padding: 0 0;
+}
+
+.img-artigos img {
+    padding: 25px 100px;
+}
+
+.min-media-folder img {
+    margin-top: 10%;
+    margin-bottom: 5%;
+    box-shadow: 5px 5px 10px #948780;
+    -webkit-box-shadow: 5px 5px 10px #948780;
+    -moz-box-shadow: 5px 5px 10px #948780;
+
+}
+.min-media-folder span {
+    text-align: center;
+}
+
+.midea-folder img {
+    margin-top: 3%;
+    margin-left: 43%;
+
+    box-shadow: 5px 5px 10px #948780;
+    -webkit-box-shadow: 5px 5px 10px #948780;
+    -moz-box-shadow: 5px 5px 10px #948780;
+    margin-bottom: 30px;
+}
+
+.livros {
+    padding-bottom: 30px;
+}
+.page-media-folder h4 {
+    font-size: 16px; 
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 20px;
+}
+.page-media-folder h5 {
+    text-align: justify;
+    font-size: 16px;
+    color: #0e700e;
+}
+
+.page-media-folder p {
+    text-align: justify;
+}
+.page-media-folder li {
+    text-align: justify;
+}
+.btn-formulario {
+    color: #0e700e;
+}
+
+.btn-formulario:hover {
+    color: #75af27;
+    text-decoration: none;
+}
+.autor-dark {
+    background: #dde884;
+    margin-top: 30px;
+    padding: 20px;
+
+    border-left-width:thick;
+    border-left-color: #75af27;
+    border-left-style: solid;
+
+    box-shadow: 5px 5px 10px #948780;
+    -webkit-box-shadow: 5px 5px 10px #948780;
+    -moz-box-shadow: 5px 5px 10px #948780;
+    margin-bottom: 30px;
+}
+img-left {
+    float: left;
+}
+.autor-dark p {
+    line-height: 1.5;
+    padding-top: 20px;
+}
+
+.autor-dark button {
+    line-height: 1.5;
+    margin-left: 90%;
+    margin-top: 10%;
+}
+.autor-light {
+    margin-top: 30px;
+    padding: 20px;
+    border-left-width:thick;
+    border-left-color: #75af27;
+    border-style: solid;
+    border-color: #75af27;
+    border-top-width: thin;
+    border-bottom-width: thin;
+    border-right-width: thin;
+
+    box-shadow: 5px 5px 10px #948780;
+    -webkit-box-shadow: 5px 5px 10px #948780;
+    -moz-box-shadow: 5px 5px 10px #948780;
+    margin-bottom: 30px;
+}
+.autor-light p {
+    line-height: 1.5;
+    padding-top: 20px;
+}
+.autor-light button {
+    line-height: 1.5;
+    margin-left: 90%;
+    margin-top: 10%;
+}
+.pg-autor-single {
+    margin-top:  5%;
+    margin-bottom: 5%;
+    color: #0e700e;
+}
+.pg-feira {
+    margin-top:  5%;
+    margin-bottom: 5%;
+}
+.borda-livro {
+    box-shadow: 5px 5px 10px #948780;
+    -webkit-box-shadow: 5px 5px 10px #948780;
+    -moz-box-shadow: 5px 5px 10px #948780;
+    margin-bottom: 30px;
+}
+
+.estante-livros h5 {
+    text-align: center;
+    text-transform: uppercase;
+}
+.estante-livros p {
+    text-align: center;
+    font-size: 12px;
+    margin: 0;
+}
+.estante-livros span {
+    font-size: 12px;
+}
+.estante-livros img {
+    margin-left: 12%;
+    margin-top: 15%;
+}
+.estante-ilustaracoes span{
+    font-size: 12px;
+}
+
+.colecao-ilustracoes {
+    margin-top: 5%;
+    margin-bottom: 4%;
+    color: #0e700e;
+    font-size: 16px;
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+.colecao-ilustracoes p {
+    color: #0e700e;
+    font-size: 14px;
+    text-align: center;
+    margin-bottom: 3%;
+}
+
+.colecao-ilustracoes span{
+    color: #0e700e;
+    font-size: 12px;
+    text-align: center;
+    text-transform: uppercase; 
+}
+
+
+.btn-autor{
+    margin-top: 6%;
+    margin-left: 40%;
+}
+.btn-autor button {
+    background: #dde884;
+    border-radius: 10px;
+    border-left-width:thick;
+    border-left-color: #75af27;
+    border-left-style: solid;
+}
+.btn-autor:hover button{
+    color: #333;
+    background-color: #b1bf3b;
+    border-color: #75af27;
+}
+
+.btn-preco {
+    margin-top: 2%;
+    margin-left: 3%;
+    margin-bottom: 2%;
+}
+.btn-preco button {
+    background: #dde884;
+    border-radius: 0;
+    border-left-width:thick;
+    border-left-color: #75af27;
+    border-left-style: solid;
+
+    box-shadow: 5px 5px 10px #948780;
+    -webkit-box-shadow: 5px 5px 10px #948780;
+    -moz-box-shadow: 5px 5px 10px #948780;
+    margin-bottom: 30px;
+}
+.btn-preco:hover button{
+    color: #333;
+    background-color: #b1bf3b;
+    border-color: #75af27;
+}
+
+.eventos img{
+    box-shadow: 5px 5px 10px #948780;
+    -webkit-box-shadow: 5px 5px 10px #948780;
+    -moz-box-shadow: 5px 5px 10px #948780;
+}
+
+.curta-face {
+    background: #dde884;
+    border-radius: 10px;
+    border-left-width:thick;
+    border-left-color: #75af27;
+    border-left-style: solid;
+    margin-bottom: 5%;
+}
+.curta-face p {
+    font-size: 18px;
+}
+.em-breve {
+    font-size: 18px;
+    color: #75af27;
+}
+
+.page-livros img {
+    margin-left: 5%;
+    box-shadow: 5px 5px 10px #948780;
+    -webkit-box-shadow: 5px 5px 10px #948780;
+    -moz-box-shadow: 5px 5px 10px #948780;
+    margin-bottom: 30px;
+}
+
+.mapa-site {
+    margin-top: 2%;
+    margin-bottom: 1%;
+    margin-left: 20;
+}
+.mapa-site {
+    margin-left: 0;
+}
+.video {
+    margin-top: 5%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+}
+/*contato.html*/
+.form-contato{
+    margin-top: 10%;
+}
+
+/*modal*/
+
+.modal-body h2 {
+    color: #0e700e;
+}
+
+.modal-dialog {
+    background: #dde884;
+    border-radius: 0;
+    border-left-width:thick;
+    border-left-color: #75af27;
+    border-left-style: solid;
+
+    box-shadow: 5px 5px 10px #948780;
+    -webkit-box-shadow: 5px 5px 10px #948780;
+    -moz-box-shadow: 5px 5px 10px #948780;
+    margin-bottom: 30px;
+}
+
+
+
